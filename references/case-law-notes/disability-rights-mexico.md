@@ -1,9 +1,9 @@
 # Case-Law Notes
 ## Disability Rights and Conventionality Analysis in Mexico
 
-This file provides selected case-law notes relevant to disability-rights analysis, conventionality review, and the domestic implementation of international human rights standards in Mexico.
+This file provides selected case-law notes relevant to disability-rights analysis, conventionality analysis, and the domestic implementation of international human rights standards in Mexico.
 
-It is intended as a support document for NormTrace. It does not replace full doctrinal case analysis. Its purpose is to identify decisions and interpretive materials that may be relevant when assessing domestic legal compatibility, institutional design, equality, legal capacity, accessibility, and implementation-oriented gaps.
+It is intended as a support document for NormTrace. It does not replace full doctrinal case analysis. Its purpose is to identify decisions and interpretive materials that may be relevant when assessing **legal compatibility**, institutional design, equality, legal capacity, accessibility, and **implementation-oriented gaps** within the Mexican domestic legal framework.
 
 ---
 
@@ -24,7 +24,7 @@ Use this decision when:
 
 - identifying the constitutional parameter of rights review in Mexico;
 - explaining why domestic legal analysis cannot be limited to constitutional text alone;
-- framing the relationship between domestic law and international human rights treaties.
+- framing the relationship between the domestic legal framework and international human rights treaties.
 
 ---
 
@@ -41,7 +41,7 @@ This case is relevant in discussions concerning disability, discrimination, and 
 
 Use this decision when:
 
-- assessing whether a domestic norm reflects a social or medical model of disability;
+- assessing whether a domestic legal instrument reflects a social or medical model of disability;
 - analysing barriers created by legal categories or institutional assumptions;
 - connecting disability-rights analysis with constitutional equality principles.
 
@@ -81,7 +81,7 @@ Use this decision when:
 
 - framing discrimination analysis;
 - identifying indirect or structural discrimination;
-- supporting arguments that a norm may be formally neutral but materially exclusionary.
+- supporting arguments that a domestic legal instrument may be formally neutral but materially exclusionary.
 
 ---
 
@@ -121,13 +121,13 @@ This case is a core doctrinal reference for the idea that domestic authorities m
 
 Use this case when:
 
-- explaining the doctrinal basis of conventionality control;
+- explaining the doctrinal basis of conventionality analysis;
 - framing the duty to assess domestic law against international standards;
-- introducing the methodology of conventionality analysis.
+- introducing the methodology of conventionality review.
 
 ---
 
-### Trabajadores Cesados del Congreso v. Peru (2006)
+### Dismissed Congressional Employees (Aguado Alfaro et al.) v. Peru (2006)
 
 **Institution:** Inter-American Court of Human Rights  
 **Relevance:** Further development of conventionality doctrine.
@@ -140,7 +140,7 @@ This case helps show that conventionality control is not confined to a single in
 
 Use this case when:
 
-- reinforcing the doctrinal continuity of conventionality control;
+- reinforcing the doctrinal continuity of conventionality analysis;
 - situating domestic review within the Inter-American legal order.
 
 ---
@@ -216,7 +216,7 @@ Use this case when:
 
 - analysing intersectional discrimination;
 - identifying compounded disadvantage;
-- supporting arguments that apparently neutral laws may have differentiated effects across multiple social positions.
+- supporting arguments that apparently neutral domestic legal instruments may have differentiated effects across multiple social positions.
 
 ---
 
@@ -338,11 +338,15 @@ These case-law notes should be used selectively and analytically.
 They are not intended as a checklist of authorities to cite automatically. Their purpose is to help identify:
 
 - doctrinally relevant standards;
-- interpretive developments in disability rights and conventionality review;
+- interpretive developments in disability rights and conventionality analysis;
 - constitutional and inter-American principles relevant to domestic legal analysis;
 - and possible sources for structured legal argumentation.
 
-In NormTrace, precedents and interpretive materials should be used to clarify the **international standard**, the **domestic legal problem**, and the **type of normative gap** under review.
+In NormTrace, precedents and interpretive materials should be used to clarify:
+
+- the **international standard**;
+- the **domestic legal problem**;
+- and the **type of normative gap** or **implementation-oriented gap** under review.
 
 ## 7. Terminology rule
 
