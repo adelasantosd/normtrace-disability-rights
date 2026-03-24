@@ -161,6 +161,27 @@ Identify the applicable international and domestic interpretive framework, which
 - regional human rights standards,
 - and authoritative interpretive criteria.
 
+### Instrument reference workflow
+
+When conducting conventionality analysis, use instrument files in two layers:
+
+1. **Rapid operational reference**  
+   Read the relevant `*-key-articles.md` file first in order to identify:
+   - the most relevant treaty provisions,
+   - the minimum standard associated with each provision,
+   - typical domestic legal red flags,
+   - and the key interpretive materials linked to that article.
+
+2. **Extended substantive reference**  
+   Read the full instrument file (for example, `references/instruments/cdpd.md`) when:
+   - the issue is legally complex or contested;
+   - the domestic legal instrument appears only partially aligned;
+   - the analysis requires article-specific nuance;
+   - or the output requires structured legal argumentation for litigation, legislative advocacy, or institutional review.
+
+The short instrument files are intended for orientation and analytical triage.  
+The full instrument files remain the authoritative internal reference within the repository.
+
 ### 3.2 Functional contrast
 Assess whether the domestic norm is consistent with principles such as:
 
