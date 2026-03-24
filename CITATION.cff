@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "NormTrace"
+message: "If you use this repository, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Santos-Domínguez"
+    given-names: "Adela B."
+    orcid: "https://orcid.org/0000-0002-8691-0544"
+version: "1.0.0"
+date-released: "2025-03-01"
+abstract: >
+  NormTrace is a structured methodological tool for assessing domestic normative alignment
+  with international legal instruments. The current pilot focuses on disability rights
+  in Mexico, using an initial contrast between the Convention on the Rights of Persons
+  with Disabilities (CRPD) and domestic legislation.
+repository-code: "https://github.com/Adelasantos12/NormTrace"
+license: "MIT"
+keywords:
+  - legal analysis
+  - normative alignment
+  - conventionality control
+  - disability rights
+  - Mexico
+  - international law
+  - human rights
