@@ -205,9 +205,8 @@ The following list is indicative rather than exhaustive. Legislative currency sh
 | Legal instrument | Relevance for disability analysis | Notes |
 |-----|-----------|----------------|
 | LGIPD | Main disability framework law | Core pilot law |
-| General Education Law | Inclusive education; relevance to Article 24 CRPD |
-Verify current text |
-| General Health Law | Mental health, treatment, institutionalisation | Verify current text | 
+| General Education Law | Inclusive education; relevance to Article 24 CRPD | Verify current text |
+| General Health Law | Mental health, treatment, institutionalisation | Verify current text |
 | Federal Labour Law | Work and employment; relevance to Article 27 CRPD | Verify current text |
 | General Victims Law | Disability resulting from violence or victimisation | Verify current text |
 | Federal Law to Prevent and Eliminate Discrimination | Non-discrimination framework; CONAPRED | Verify current text |
