@@ -245,7 +245,7 @@ The status of subsequent reporting cycles, follow-up procedures, and more recent
 
 ---
 
-###10. Notes for analysts using NormTrace in the Mexican context
+### 10. Notes for analysts using NormTrace in the Mexican context
 
 When using NormTrace in relation to Mexican law, analysts should take particular care to:
 verify whether the legal instrument under review is a general law, federal law, state law, regulation, or administrative instrument;
