@@ -1,250 +1,153 @@
 # NormTrace
+
 **NormTrace** is a structured tool for analysing how domestic legal frameworks align with international legal instruments.  
-> Pilot repository. Current scope: disability rights in Mexico.
-> 
-This repository documents the **pilot phase** of the project, focused on **disability rights in Mexico** through an initial contrast between the **Convention on the Rights of Persons with Disabilities (CRPD)** and the **Ley General para la Inclusión de las Personas con Discapacidad (LGIPD)**.
+This repository documents the **pilot phase** of the project, focused on **disability rights in Mexico** through an initial contrast between the **Convention on the Rights of Persons with Disabilities (CRPD)** and the domestic legal framework.
 
 ## Overview
 
-NormTrace was developed to move beyond purely textual legal analysis. Rather than relying on keyword matching or superficial article-by-article comparison, it applies a **multi-layered hermeneutic methodology** designed to evaluate:
+NormTrace was developed to move beyond purely textual legal review. Rather than relying on keyword matching or superficial article-by-article comparison, it applies a **structured, multi-layered legal methodology** designed to assess:
 
-- the real legal effects of a norm,
-- its structural omissions,
-- its implicit exclusions,
-- its institutional design,
-- and its compatibility with international human rights standards.
+- legal effect,
+- institutional design,
+- implicit exclusions,
+- normative alignment,
+- legal compatibility with international standards,
+- and implementation-oriented gaps.
 
-### Core methodological premise
+The project is designed as a **documented and citable pilot**, not as a complete public release of every production component of the web application.
+
+## Core analytical premise
 
 A law is not only what it says. It is also what it produces: who can invoke it, who can disregard it without consequences, whom it renders visible or invisible, which institutional responsibilities it creates, and which barriers it removes or reproduces.
 
-In this approach, **normative silence is analytically meaningful**. Absence, ambiguity, and under-specification are treated as legal data, not as neutral gaps.
-
-## What this repository contains
-
-This repository contains the current pilot implementation of NormTrace, including:
-
-- a structured analytical protocol,
-- reference materials and legal frameworks,
-- the current pilot case for Mexico and disability rights,
-- and the core documentation required to understand, assess, and reuse the methodology.
-
-It is designed as a **documented and citable pilot**, not as a complete public release of every production component of the web application.
+In this approach, **normative silence is analytically meaningful**.  
+Absence, ambiguity, under-specification, and weak institutional design are treated as legally relevant features, not as neutral drafting gaps.
 
 ## What NormTrace is
 
-NormTrace is a **methodologically structured legal analysis tool** that guides large language models through a disciplined analytical sequence. It is not a search engine, a legal database, or a citation retriever. Its purpose is to support **deep normative analysis** by combining:
+NormTrace is a **structured methodological tool** for deep normative legal analysis. It guides legal analysis through a reproducible sequence of interpretive steps supported by:
 
-- legal-institutional analysis,
-- international human rights standards,
-- doctrinal reference materials,
-- and a reproducible multi-step reasoning structure.
+- analytical frameworks,
+- country-specific legal context modules,
+- international legal instrument files,
+- case-law notes,
+- and controlled terminology.
 
-The tool is intended for use in contexts such as:
+The tool is intended for uses such as:
 
-- legislative review and reform,
+- legislative review,
 - strategic litigation support,
-- policy advocacy,
-- treaty implementation analysis,
-- academic research,
-- and norm-monitoring exercises.
+- policy reform analysis,
+- rights-based advocacy,
+- conventionality analysis,
+- and comparative or mixed-method research.
 
 ## What NormTrace is not
 
-NormTrace does **not** replace expert legal judgment.
+NormTrace is **not**:
 
-It does **not** provide automatic constitutional review or binding legal determinations.
+- a substitute for expert legal judgment,
+- an automated constitutional court,
+- a real-time jurisprudential database,
+- or a direct measure of behavioural compliance.
 
-It does **not** guarantee real-time legislative or jurisprudential updating.
+At this stage, the tool assesses primarily:
 
-It does **not** measure compliance in a behavioural or enforcement sense. At this stage, the tool assesses primarily **normative alignment, legal compatibility, institutional anchoring, and implementation-oriented gaps**.
+- **normative alignment**,
+- **legal compatibility**,
+- **institutional anchoring**,
+- and **implementation-oriented gaps**.
 
-All outputs require verification against primary legal sources.
-
-## Analytical rationale
-
-NormTrace is grounded in the idea that the domestic implementation of international commitments depends not only on formal ratification, but on the way obligations are translated into domestic legal frameworks, institutional responsibilities, remedies, and enforceable guarantees.
-
-The pilot therefore treats legal analysis as a problem of **domestic normative translation** and **institutional anchoring**. This makes the tool relevant not only for disability rights, but more broadly for research and practice at the intersection of:
-
-- global governance,
-- legislative institutions,
-- domestic implementation of international commitments,
-- and rights-based public policy.
-
-## Methodological structure
-
-The current methodology is organised into five analytical stages.
-
-### 0. Text ingestion and verification
-
-The legal text is first obtained and checked for completeness and currency.  
-Analysis should always be based on the full and current version of the instrument under review.
-
-### 1. Structural legal analysis
-
-This stage maps the formal anatomy of the legal instrument and identifies:
-
-- the type and hierarchy of the norm,
-- the distribution of powers and duties,
-- the actors responsible for implementation,
-- mechanisms of coordination,
-- and the existence or absence of enforcement and accountability provisions.
-
-The objective is to determine how responsibility is legally distributed and whether the norm creates a workable institutional architecture.
-
-### 2. Analysis of omissions and implicit exclusions
-
-This stage focuses on what the law does **not** say and on the effects of that silence.
-
-The analysis examines:
-
-- the legal construction of the rights-holder,
-- gender perspective,
-- intersectionality,
-- indigenous perspective and cultural accessibility,
-- and language as a possible technology of exclusion.
-
-This is not a semantic exercise. It is an inquiry into whether apparently neutral legal language produces differentiated or exclusionary effects.
-
-### 3. Conventionality and international alignment analysis
-
-The domestic law is then assessed against the relevant international instrument, not through superficial textual correspondence but through legal effect.
-
-This stage evaluates whether the domestic norm is consistent with principles such as:
-
-- non-regression,
-- progressivity,
-- maximum protection,
-- and effectiveness.
-
-The result is a structured identification of normative gaps, including absence, weak recognition, incompatibility, regression, and implementation-oriented deficiencies.
-
-### 4. Structured legal argumentation
-
-Each relevant finding is translated into a structured legal argument that identifies:
-
-- the legal problem,
-- the applicable domestic and international norm,
-- the type of legal deficiency,
-- the doctrinal or jurisprudential basis,
-- and a possible line of reform or remedy.
-
-This stage is designed to support outputs for different audiences, including legislatures, courts, advocacy organisations, and international monitoring processes.
-
-### 5. Output generation
-
-The methodology can produce multiple output formats, including:
-
-- structured legal diagnostics,
-- comparative law–treaty tables,
-- reform-oriented briefs,
-- and argument maps for litigation or advocacy.
-
-## Theoretical and doctrinal foundations
-
-The current pilot draws on five main traditions of analysis.
-
-### International human rights law
-
-The tool is grounded in the doctrinal architecture of state obligations to **respect, protect, and fulfil**, and in the interpretive centrality of the **pro persona** principle in rights adjudication and legislative review.
-
-### Conventionality control
-
-NormTrace incorporates the logic of **control de convencionalidad**, particularly relevant in the Mexican constitutional framework after the 2011 human rights reform. The premise is that domestic norms must be assessed in light of binding international human rights standards and their authoritative interpretation.
-
-### Social model of disability
-
-The pilot adopts the **social model of disability** as its substantive baseline. This shifts the focus from individual impairment to legal, institutional, physical, and social barriers, and therefore changes what counts as an adequate legislative response.
-
-### Gender and intersectionality
-
-The methodology assumes that legal neutrality may conceal differentiated effects. It therefore incorporates a structured intersectional analysis to identify whether a norm fails to account for compounded forms of exclusion.
-
-### Indigenous rights and legal pluralism
-
-In contexts such as Mexico, legal analysis must also account for indigenous peoples’ rights, consultation standards, cultural accessibility, and the coexistence of plural normative orders.
+Its outputs are analytical and diagnostic. They must be verified against primary legal sources and, where relevant, complemented with empirical evidence on implementation, enforcement, and lived experience.
 
 ## Current pilot scope
 
-**Jurisdiction:** Mexico  
-**Pilot area:** Disability rights  
-**Pilot contrast:** CRPD vs. LGIPD
+- **Jurisdiction:** Mexico  
+- **Substantive area:** Disability rights  
+- **Initial contrast:** CRPD vs. domestic disability-related legal framework
 
-This pilot was selected because it offers a doctrinally rich field, a clear international benchmark, and an established body of observations and interpretive guidance that make it suitable as a proof of concept.
+This pilot was selected because it offers a strong international benchmark, a rich doctrinal field, and a suitable proof of concept for broader comparative and cross-sector expansion.
 
-## Repository structure
+## Documentation layers
 
-The repository is organised around a modular architecture that separates:
+NormTrace is documented through complementary layers:
 
-- a core analytical protocol,
-- thematic legal frameworks,
-- international reference instruments,
-- and country-specific contextual modules.
-
-This architecture is designed to support future expansion to other countries and policy domains without altering the core methodology.
+- `normative-analysis-protocol.md` — the operational protocol that guides the sequence of analysis and the use of repository materials;
+- `docs/methodological-note.md` — the extended methodological note explaining the analytical problem, theoretical foundations, scope, and limitations of the project;
+- `docs/terminology-guide.md` — the controlled vocabulary used across the repository.
 
 ## Repository structure
 
-The repository is organised around a modular architecture that separates:
+- `normative-analysis-protocol.md` — core operational protocol
+- `docs/methodological-note.md` — extended methodological note
+- `docs/terminology-guide.md` — terminology guide
+- `references/frameworks/` — analytical frameworks for structural analysis, exclusion analysis, conventionality analysis, and legal argumentation
+- `references/instruments/` — international legal instrument files, including both extended reference modules and rapid operational article guides
+- `references/countries/mexico/` — country-specific legal context for the Mexico pilot, including normative hierarchy, federal distribution of competences, review mechanisms, and legislative drafting patterns
+- `references/case-law-notes/` — selected case-law and interpretive notes relevant to the pilot
 
-- a core analytical protocol,
-- thematic legal frameworks,
-- international reference instruments,
-- and country-specific contextual modules.
+## How the method works
 
-This architecture is designed to support future expansion to other countries and policy domains without altering the core methodology.
+NormTrace follows five main analytical stages:
 
-### Country modules
+1. **Text ingestion and verification**  
+   Obtain and verify the domestic legal instrument under review.
 
-NormTrace does not rely on generic cross-jurisdictional interpretation alone.  
-It incorporates **country-specific legal system modules** to support context-sensitive analysis of:
+2. **Structural analysis**  
+   Assess the formal anatomy, institutional architecture, and enforceability structure of the domestic legal instrument.
 
-- normative hierarchy,
-- constitutional and conventionality review,
-- legislative drafting patterns,
-- institutional enforcement arrangements,
-- and the distribution of legal competences.
+3. **Exclusion and omission analysis**  
+   Identify direct, indirect, structural, and omission-based forms of exclusion, including gendered, intersectional, and indigenous dimensions where relevant.
 
-The current pilot includes a **Mexico legal system module**, which provides the interpretive baseline for analysing domestic legal alignment in the Mexican context.
+4. **Conventionality and international alignment analysis**  
+   Compare the domestic legal framework with the relevant international legal instrument through legal function and effect rather than textual symmetry alone.
+
+5. **Structured legal argumentation**  
+   Translate findings into arguments suitable for litigation, legislative advocacy, institutional review, or research use.
 
 ## Scalability
 
-Although the present repository documents a disability-rights pilot for Mexico, the analytical structure is intended to be extensible.
+Although the current repository documents a disability-rights pilot for Mexico, the analytical architecture is modular and extensible.
 
-In principle, the same core methodology can be adapted to:
+In principle, the same structure can be adapted to:
 
-- other domestic legal systems,
-- other international instruments,
-- and other policy domains where implementation depends on domestic legal anchoring.
+- other countries,
+- other legal traditions,
+- other international legal instruments,
+- and other rights-based or governance-related domains.
 
-Future extensions may include additional jurisdictions and thematic branches, including health governance and other rights-based legal frameworks.
+Country modules, instrument files, and case-law notes are part of this design. They make it possible to adapt the methodology across jurisdictions while preserving legal specificity.
 
-Country modules are a core part of the project’s analytical design. They make it possible to adapt the methodology across jurisdictions while preserving legal specificity. Rather than treating domestic law as a flat text corpus, NormTrace analyses legal instruments within their constitutional, institutional, and interpretive setting.
+## Quantitative and mixed-method potential
+
+NormTrace is primarily an interpretive legal tool. However, its outputs can also be structured in a way that supports later comparative, quantitative, or mixed-method work.
+
+In particular, the protocol is designed to generate coding-ready summaries of:
+
+- type of gap,
+- degree of enforceability,
+- responsible actor,
+- subgroup affected,
+- participation and monitoring mechanisms,
+- and overall normative alignment.
+
+These structured outputs are intended to support later dataset construction and comparative analysis, not to replace legal interpretation.
 
 ## Limitations
 
-NormTrace has important limits.
+NormTrace has important limitations.
 
-It does not replace legal practice or case-specific legal advice.
+It does not replace legal advice or case-specific litigation strategy.
 
-It does not independently verify the most recent legislative amendments unless the source text provided is current.
+It does not independently guarantee that the legal text under review reflects the most recent reform unless the source provided is current.
 
-It cannot generate empirical evidence about lived experience or actual enforcement on its own; normative findings should therefore be complemented with statistical, institutional, and testimonial evidence where relevant.
+It does not produce empirical evidence on implementation or outcomes on its own.
 
-Its outputs are only as reliable as the legal sources, reference materials, and verification practices used by the analyst.
-
-## Epistemic position
-
-NormTrace does not claim a false neutrality between all possible legal interpretations when binding international human rights standards exist.
-
-Its methodological stance is explicit: legal analysis should make visible the distance between domestic law and applicable international commitments, and it should do so transparently, rigorously, and with clear reference to primary legal sources.
+Its findings should therefore be understood as part of a broader analytical process that may also require jurisprudential review, institutional evidence, budget analysis, and qualitative or quantitative implementation data.
 
 ## Citation
 
-If you use this repository, please cite the project version used in your analysis.
-
-**Suggested citation (provisional):**
+**Suggested provisional citation:**
 
 Santos-Domínguez, Adela B. (2025). *NormTrace v1.0: Pilot methodology for assessing domestic normative alignment with international disability rights standards in Mexico*. GitHub repository.
 
