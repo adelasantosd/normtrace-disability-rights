@@ -184,6 +184,30 @@ The repository is organised around a modular architecture that separates:
 
 This architecture is designed to support future expansion to other countries and policy domains without altering the core methodology.
 
+## Repository structure
+
+The repository is organised around a modular architecture that separates:
+
+- a core analytical protocol,
+- thematic legal frameworks,
+- international reference instruments,
+- and country-specific contextual modules.
+
+This architecture is designed to support future expansion to other countries and policy domains without altering the core methodology.
+
+### Country modules
+
+NormTrace does not rely on generic cross-jurisdictional interpretation alone.  
+It incorporates **country-specific legal system modules** to support context-sensitive analysis of:
+
+- normative hierarchy,
+- constitutional and conventionality review,
+- legislative drafting patterns,
+- institutional enforcement arrangements,
+- and the distribution of legal competences.
+
+The current pilot includes a **Mexico legal system module**, which provides the interpretive baseline for analysing domestic legal alignment in the Mexican context.
+
 ## Scalability
 
 Although the present repository documents a disability-rights pilot for Mexico, the analytical structure is intended to be extensible.
@@ -195,6 +219,8 @@ In principle, the same core methodology can be adapted to:
 - and other policy domains where implementation depends on domestic legal anchoring.
 
 Future extensions may include additional jurisdictions and thematic branches, including health governance and other rights-based legal frameworks.
+
+Country modules are a core part of the project’s analytical design. They make it possible to adapt the methodology across jurisdictions while preserving legal specificity. Rather than treating domestic law as a flat text corpus, NormTrace analyses legal instruments within their constitutional, institutional, and interpretive setting.
 
 ## Limitations
 
