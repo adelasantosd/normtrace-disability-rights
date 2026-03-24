@@ -1,6 +1,7 @@
 # NormTrace
-
 **NormTrace** is a structured tool for analysing how domestic legal frameworks align with international legal instruments.  
+> Pilot repository. Current scope: disability rights in Mexico.
+> 
 This repository documents the **pilot phase** of the project, focused on **disability rights in Mexico** through an initial contrast between the **Convention on the Rights of Persons with Disabilities (CRPD)** and the **Ley General para la Inclusión de las Personas con Discapacidad (LGIPD)**.
 
 ## Overview
