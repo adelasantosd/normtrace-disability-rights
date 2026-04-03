@@ -4,26 +4,26 @@
 
 Different forms of legal argument require different structures, levels of technicality, and supporting materials. For the purposes of NormTrace, the following distinctions are useful.
 
-### For strategic litigation (SCJN / courts)
+### For strategic litigation and domestic judicial review
 
 - Requires: binding case law where available, precise constitutional and statutory provisions, and where relevant the identification of binding or persuasive interpretive materials.
 - Structure: normative premise → subsumption → legal conclusion.
 - Language: formal legal-technical language.
-- Typical review mechanisms: direct amparo, indirect amparo, action of unconstitutionality, constitutional controversy.
+- Typical pathways: constitutional review, rights-based judicial review, treaty-based judicial argument where applicable, or other domestic remedial routes depending on jurisdiction.
 
-### For communications before UN bodies
+### For communications before UN bodies or other international mechanisms
 
 - Requires: evidence of exhaustion of domestic remedies, or an explanation of why an exception applies; identification of the state; and specification of the treaty provisions allegedly violated.
 - Structure: facts → violated norm → harm → request.
 - Language: technical but more accessible, with greater emphasis on concrete human impact.
-- Typical mechanisms: individual communications under optional protocols, alternative reports, shadow reports, and follow-up submissions.
+- Typical mechanisms: individual communications under optional protocols, alternative reports, shadow reports, follow-up submissions, and other supervisory procedures depending on the instrument.
 
-### For legislative advocacy
+### For legislative advocacy and institutional reform
 
 - Requires: legal argument, practical impact, proposed wording, and where possible some indication of operational or budgetary implications.
 - Structure: diagnosis → comparative or contextual evidence → concrete proposal → institutional or political justification.
-- Language: accessible to non-specialist legislators and policy actors.
-- Typical mechanisms: legislative initiatives, parliamentary hearings, committee submissions, expert opinions, and amicus-type interventions.
+- Language: accessible to non-specialist legislators, public officials, and policy actors.
+- Typical mechanisms: legislative initiatives, parliamentary hearings, committee submissions, expert opinions, consultation processes, and amicus-type interventions where relevant.
 
 ### For public advocacy and civil society use
 
@@ -31,6 +31,10 @@ Different forms of legal argument require different structures, levels of techni
 - Structure: lived reality or concrete problem → systemic legal issue → possible solution → call to action.
 - Language: clear and direct, with minimal jargon.
 - Typical mechanisms: civil society reports, statements, campaigns, public briefs, and advocacy materials.
+
+### Relevance for NormTrace
+
+The same analytical finding may need to be reformulated differently depending on the forum. A legally robust argument is not only one that is doctrinally correct, but one that is appropriately structured for its intended audience.
 
 ---
 
@@ -40,16 +44,19 @@ For NormTrace, the IRAC model can be adapted to normative analysis as follows.
 
 ### I — Issue
 
-Identify the legal problem with precision.  
-The issue should not be framed vaguely as “the law is deficient”, but more specifically, for example: “the domestic legal instrument omits an enforceability mechanism for right X, which limits practical access for subgroup Y”.
+Identify the legal problem with precision.
+
+The issue should not be framed vaguely as “the law is deficient”, but more specifically, for example:
+
+> “The domestic legal instrument omits an enforceability mechanism for right X, which limits practical access for subgroup Y.”
 
 ### R — Rule
 
 Identify the applicable norm or set of norms:
 
-- **Primary norm**: relevant constitutional provision or treaty article.
+- **Primary norm**: relevant constitutional provision or article of the relevant international legal instrument.
 - **Interpretive norm**: General Comment, case law, concluding observation, or other relevant interpretive material.
-- **Applicable principles**: *pro persona*, progressivity, non-discrimination, non-regression, equality, accessibility, participation, or other relevant principles.
+- **Applicable principles**: *pro persona*, progressivity, non-discrimination, non-regression, equality, accessibility, participation, autonomy, or other relevant principles.
 
 ### A — Application
 
@@ -57,10 +64,10 @@ Explain how the applicable rule applies to the domestic legal instrument under r
 
 Key questions include:
 
-- How does the relevant standard apply to the domestic provision?
+- How does the relevant international standard apply to the domestic provision?
 - What legal effect does the challenged or analysed provision actually produce?
 - What institutional, practical, or distributive consequences follow from that legal design?
-- What empirical or comparative material, if any, supports the argument about impact?
+- What empirical, comparative, or contextual material, if any, supports the argument about impact?
 
 ### C — Conclusion
 
@@ -69,8 +76,8 @@ State the conclusion clearly and specify the remedial implication.
 This should include:
 
 - a precise characterisation of the legal deficiency;
-- the type of incompatibility or normative gap identified;
-- and the specific remedy sought, whether in the form of legislative amendment, interpretive correction, judicial review, accommodation, or institutional redesign.
+- the type of incompatibility, omission, or implementation-oriented gap identified;
+- and the specific remedy sought, whether in the form of legislative amendment, interpretive correction, judicial review, accommodation, institutional redesign, or another remedial pathway.
 
 ---
 
@@ -92,7 +99,7 @@ Not all findings have the same urgency, remediability, or litigation potential. 
 
 - **Constitutional amendment**: requires constitutional reform and is therefore institutionally more demanding.
 - **Legislative reform**: requires statutory amendment.
-- **Regulatory reform**: can be addressed through executive rule-making.
+- **Regulatory reform**: can be addressed through executive or delegated rule-making.
 - **Administrative measure**: can be addressed through institutional or administrative action without formal legal amendment.
 
 ### Litigation potential criteria
@@ -100,6 +107,10 @@ Not all findings have the same urgency, remediability, or litigation potential. 
 - **High**: there is an identifiable affected group, a reasonably stable legal basis, and a plausible pathway to judicial or quasi-judicial review.
 - **Medium**: there is a solid legal basis, but the issue remains novel or procedurally difficult.
 - **Low**: the argument depends on highly innovative interpretation, uncertain standing, or prior institutional change.
+
+### Relevance for NormTrace
+
+This matrix is not a substitute for legal judgment. It is a heuristic tool for deciding which findings are most strategically relevant in a given institutional setting.
 
 ---
 
@@ -194,14 +205,18 @@ The following sources are especially useful for constructing legally robust and 
 | CEDAW materials | https://www.ohchr.org/en/treaty-bodies/cedaw |
 | ILO Convention No. 169 resources | https://www.ilo.org/dyn/normlex/en |
 
+### Country-use note
+
+This list is illustrative, not exhaustive. Analysts should complement it with jurisdiction-specific primary sources where the domestic legal framework under review is not Mexican.
+
 ### Analytical note for NormTrace
 
 Where possible, legal argumentation should rely first on:
 
-1. treaty text,
-2. constitutional text,
-3. binding or authoritative case law,
-4. interpretive materials from relevant supervisory bodies,
+1. treaty text;
+2. constitutional text;
+3. binding or authoritative case law;
+4. interpretive materials from relevant supervisory bodies;
 5. and only then on secondary doctrine.
 
 ---
@@ -245,3 +260,17 @@ LEGAL ARGUMENT [NUMBER]
    Current wording: [...]
    Proposed wording: [...]
    Justification: [...]
+
+---
+
+## 8. Methodological cautions
+
+When using this framework, analysts should take particular care to:
+- distinguish between normative alignment, legal compatibility, and broader questions of implementation;
+   - match the form of argument to the intended audience and forum;
+   - distinguish between a domestic legal framework and a specific domestic legal instrument;
+   - keep diagnosis analytically distinct from remedial proposal;
+   - and ensure that legal argument is supported by primary legal materials wherever possible.
+
+In NormTrace, legal argumentation is the stage at which analytical findings are translated into a structured form that can be used in litigation, legislative advocacy, public-facing analysis, institutional reform processes, or later comparative work.
+   
