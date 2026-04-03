@@ -11,62 +11,89 @@ For the purposes of NormTrace, structural analysis is a core component of broade
 
 ## 1. Legislative drafting: formal elements
 
-### Types of domestic legal instruments in Mexico
+Domestic legal instruments must always be analysed in relation to the legal order in which they operate. Structural analysis therefore begins by identifying the type of instrument, its place in the normative hierarchy, its issuing authority, and its territorial and institutional scope.
 
-| Type of instrument | General position in the legal order | Issuing authority | Basic legal procedure |
-|---|---|---|---|
-| **Constitution / constitutional amendment** | Highest | Congress of the Union + majority of state legislatures | Article 135 CPEUM |
-| **Constitutional law** | Constitutional or constitutionally linked | Congress of the Union | Depending on the constitutional basis |
-| **General law** | Federal coordinating statute with nationwide effects within its field | Congress of the Union | Defines or distributes competences across levels of government |
-| **Federal law** | Federal statutory level | Congress of the Union | Applies within the federal sphere |
-| **Organic law** | Federal or state statutory level | Relevant legislature | Organises powers or public institutions |
-| **Regulation** | Subordinate to statute | Executive branch | Article 89(I) CPEUM, where applicable |
-| **Official Mexican Standard (NOM)** | Technical-regulatory instrument | Ministries and competent authorities | Technical and administrative procedure |
-| **Decree** | Variable depending on subject matter | Executive or legislature | Depends on constitutional or statutory basis |
+### Illustrative comparison: Mexico and Switzerland
 
-### Key distinction: General law vs federal law
+| Dimension | Mexico | Switzerland |
+|---|---|---|
+| Basic state structure | Federal state with federation, states, and municipalities | Federal state with Confederation, cantons, and communes |
+| Key legislative levels | Constitution, general laws, federal laws, state laws, regulations, technical norms | Federal Constitution, federal acts, ordinances, cantonal constitutions, cantonal laws, cantonal ordinances, communal rules where relevant |
+| Importance of competence allocation | Very high, especially for general laws distributing powers across levels of government | Very high, especially because cantons retain substantial powers unless competence is assigned to the Confederation |
+| Typical structural question | Is the instrument federal, general, state-level, regulatory, or administrative? | Is the instrument federal, cantonal, intercantonal, regulatory, or administrative? |
+| Relevance for rights analysis | Competence distribution affects implementation and enforceability | Federal–cantonal distribution affects implementation, judicial pathways, and administrative reach |
 
-A **general law** distributes competences among the federation, the states, and the municipalities. It therefore creates a framework within which multiple orders of government may have binding duties and, where appropriate, concurrent legislative or implementation responsibilities.
+### Country-specific legal forms
 
-A **federal law**, by contrast, operates within the federal sphere and is principally directed at federal authorities and institutions unless the constitutional framework provides otherwise.
+The precise hierarchy and categories of domestic legal instruments should always be read together with the relevant country module.
+
+For the current repository, analysts should consult:
+
+- `references/countries/mexico/legal-system.md`
+- `references/countries/switzerland/legal-system.md`
 
 ### Relevance for NormTrace
 
-This distinction matters because the legal effect of a domestic legal instrument cannot be assessed correctly without identifying the level of government it binds and the competences it allocates.
+The legal effect of a domestic legal instrument cannot be assessed correctly without identifying:
 
-In the field of disability rights, for example, the **LGIPD** is a **general law**. This means that state legislatures are expected to legislate in harmony with its framework, and municipalities may also bear direct implementation obligations depending on the matter concerned.
+- the level of government that enacted it;
+- the competences it allocates or presupposes;
+- the authorities it binds;
+- and the territorial scale at which implementation is expected to occur.
+
+In federal systems, these questions are central rather than secondary.
 
 ---
 
-## 2. Internal anatomy of a Mexican statute
+## 2. Internal anatomy of a domestic legal instrument
 
-A typical general law in Mexico often follows a structure similar to the following:
+The internal anatomy of a domestic legal instrument varies across jurisdictions, but certain recurring components are analytically important across systems.
+
+A typical rights-relevant domestic legal instrument often includes some combination of the following:
 
 ```text
-PRELIMINARY TITLE / GENERAL PROVISIONS
-  ├── Purpose of the law
-  ├── Scope of application (personal / material / territorial / temporal)
+GENERAL OR PRELIMINARY PROVISIONS
+  ├── Purpose or object
+  ├── Scope of application
   ├── Definitions
   └── Guiding principles
 
-TITLE I–N: RIGHTS / POLICY AREAS / SUBJECT MATTERS
-  ├── Chapters organised by sector or right (e.g. health, education, work)
-  └── Each chapter commonly includes the right, duty, or policy area plus the responsibilities of public authorities
+SUBSTANTIVE PART
+  ├── Rights, duties, or policy areas
+  ├── Institutional responsibilities
+  ├── Procedural rules
+  └── Access, implementation, or coordination clauses
 
-PENULTIMATE TITLE: INSTITUTIONAL STRUCTURE
+INSTITUTIONAL OR ADMINISTRATIVE PART
   ├── Bodies created or designated
   ├── Powers and functions
-  └── Inter-institutional coordination arrangements
+  ├── Coordination mechanisms
+  └── Monitoring or reporting duties
 
-FINAL TITLE: SANCTIONS AND LIABILITIES
-  └── Types of infringement and their consequences
+ENFORCEMENT PART
+  ├── Remedies
+  ├── Sanctions
+  ├── Liability provisions
+  └── Complaint or review pathways
 
-TRANSITIONAL PROVISIONS
-  └── Entry into force, repeals, implementation deadlines, and transitional duties
-```
+FINAL OR TRANSITIONAL PROVISIONS
+  ├── Entry into force
+  ├── Repeals or amendments
+  ├── Transitional duties
+  └── Implementation deadlines
+
+**Country-use note**
+
+The exact labels and legislative drafting style will vary by jurisdiction. For example:
+- Mexican statutes often rely heavily on formal titles, chapters, and transitory provisions.
+- Swiss federal and cantonal legislation may be structurally more compact or differently codified depending on the legal field and drafting tradition.
+
+For that reason, structural analysis should focus less on formal labels alone and more on whether the domestic legal instrument contains the functional elements required for enforceability.
+  
 **Relevance for NormTrace**
 
-Structural analysis should determine whether this anatomy produces more than formal order. The key question is whether the internal structure of the domestic legal instrument translates rights language into:
+Structural analysis should determine whether the internal anatomy of the domestic legal instrument translates rights language into:
+
 - identifiable duties,
 - competent institutions,
 - coordination pathways,
@@ -94,9 +121,9 @@ Examples include:
 
 **Duties of abstention**
 Examples include:
-	•	shall refrain from
-	•	is prohibited from
-	•	may not
+- shall refrain from
+- is prohibited from
+- may not
 
 **Discretionary powers**
 Examples include:
@@ -156,6 +183,16 @@ Structural analysis should assess whether the domestic legal instrument creates 
 - Lack of a technical secretariat or administrative support: institutions without operational structure often fail in practice.
 - Absence of earmarked or identifiable funding: duties without funding may remain aspirational.
 - Transitional provisions without deadlines: implementation may be indefinitely postponed.
+
+**Relevance for federal and multi-level systems**
+
+This stage is especially important in multi-level systems such as Mexico and Switzerland, where implementation may depend on:
+- federal action;
+- subnational legislation;
+- cantonal or state administration;
+- municipal or communal execution;
+- and intergovernmental coordination
+
 
 **Relevance for NormTrace**
 A domestic legal instrument may be formally rights-compatible while remaining institutionally fragile. Structural analysis should therefore identify whether the institutional architecture is:
@@ -222,6 +259,7 @@ When using this framework, analysts should take particular care to:
 - distinguish between binding duties, discretionary powers, and aspirational language;
 - analyse institutional architecture together with legal wording;
 - treat funding, coordination, and participation as structural elements rather than secondary implementation details;
+- read the structural framework together with the relevant country module where federal, cantonal, or other multi-level competence issues are present;
 - and assess whether the legal design produces a workable enforceability chain for rights-holders.
 
 In NormTrace, structural analysis is used to determine whether a domestic legal instrument creates a credible pathway from formal recognition to institutional effect.
