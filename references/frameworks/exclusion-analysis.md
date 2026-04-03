@@ -42,7 +42,8 @@ Relevant legal and interpretive materials include:
 - CEDAW Committee, General Recommendation No. 28;
 - CRPD, especially Article 3;
 - CRPD Committee, General Comment No. 3 on women and girls with disabilities;
-- Inter-American Court of Human Rights, Advisory Opinion OC-18/03 on juridical condition and rights of undocumented migrants, especially for the broader principle of non-discrimination.
+- Inter-American Court of Human Rights, Advisory Opinion OC-18/03 on the juridical condition and rights of undocumented migrants, especially for the broader principle of non-discrimination;
+- other jurisdictionally relevant equality and non-discrimination standards where applicable.
 
 ---
 
@@ -94,11 +95,11 @@ A domestic legal instrument may be formally universal while remaining gender-bli
 Relevant legal and interpretive materials include:
 
 - CEDAW, especially Articles 2, 4, and 5;
-- Convention of Belém do Pará;
-- CEDAW Committee, General Recommendation No. 25 on temporary special measures and substantive equality;
+- Convention of Belém do Pará where regionally relevant;
+- CEDAW Committee, General Recommendation No. 25 on substantive equality;
 - CEDAW Committee, General Recommendation No. 35 on gender-based violence;
 - CRPD, Article 6;
-- MESECVI standards and interpretive materials.
+- and other jurisdictionally relevant gender-equality standards.
 
 ---
 
@@ -113,13 +114,13 @@ For NormTrace, intersectional analysis is used to assess whether a domestic lega
 | Axis | Key questions | Relevant reference framework |
 |---|---|---|
 | **Gender** | Does the instrument differentiate experiences by gender? | CEDAW; CRPD Article 6 |
-| **Ethnicity / indigeneity** | Does it recognise cultural and linguistic diversity in access? | ILO Convention No. 169; UNDRIP; Article 2 CPEUM |
+| **Ethnicity / indigeneity** | Does it recognise cultural and linguistic diversity in access? | ILO Convention No. 169; UNDRIP; jurisdiction-specific constitutional norms where applicable |
 | **Age** | Are there specific provisions for children, adolescents, or older persons? | CRC; CRPD Articles 7 and 8 |
-| **Class / poverty** | Are services free in law but costly in practice? | ICESCR; Article 2 ICESCR |
-| **Rurality** | Can the mechanisms operate outside urban centres? | CEDAW General Recommendation No. 34 on rural women |
-| **Migration status** | Does the instrument apply only to nationals or documented persons? | ACHR Article 1; migrant rights standards |
-| **Sexual orientation / gender identity** | Does the instrument recognise diversity in orientation and identity? | Yogyakarta Principles; evolving international standards |
-| **Deprivation of liberty** | Does it address the regulated group in detention or institutional settings? | CRPD; Nelson Mandela Rules |
+| **Class / poverty** | Are services free in law but costly in practice? | ICESCR; equality and social-rights standards |
+| **Rurality** | Can the mechanisms operate outside urban centres? | CEDAW General Recommendation No. 34 on rural women; access-to-services standards |
+| **Migration status** | Does the instrument apply only to nationals or documented persons? | Equality and non-discrimination standards; migrant-rights instruments where applicable |
+| **Sexual orientation / gender identity** | Does the instrument recognise diversity in orientation and identity? | Yogyakarta Principles; evolving regional and domestic standards |
+| **Deprivation of liberty** | Does it address the regulated group in detention or institutional settings? | CRPD; Nelson Mandela Rules; other detention-related standards |
 
 ### Method for intersectional analysis
 
@@ -131,9 +132,9 @@ For NormTrace, intersectional analysis is used to assess whether a domestic lega
 3. Identify the point at which that route becomes interrupted, inaccessible, or impracticable.
 
 4. Assess whether that interruption is caused by:
-   - an omission in the legal instrument,
-   - a specific provision,
-   - an institutional design failure,
+   - an omission in the legal instrument;
+   - a specific provision;
+   - an institutional design failure;
    - or an access barrier built into the legal architecture.
 
 ### Relevance for NormTrace
@@ -146,40 +147,44 @@ Intersectionality is not treated here as an abstract theoretical add-on. It is u
 
 ---
 
-## 4. Indigenous perspective: standards and diagnostic questions
+## 4. Indigenous perspective and culturally specific exclusion
 
 ### Minimum normative framework
 
-Relevant standards include:
+Relevant standards may include, depending on jurisdiction:
 
-- **ILO Convention No. 169**: consultation, recognition of indigenous institutions, and access to services in culturally and linguistically appropriate forms.
-- **UN Declaration on the Rights of Indigenous Peoples (UNDRIP)**: self-determination, participation, land, territory, and consultation.
-- **Article 2 CPEUM**: recognition of indigenous peoples’ self-determination and the obligation of the state to recognise diversity and consult where required.
-- **General Law on Linguistic Rights in Mexico**: right to communicate with authorities in one’s own language.
+- **ILO Convention No. 169**: consultation, recognition of indigenous institutions, and access to services in culturally and linguistically appropriate forms;
+- **UN Declaration on the Rights of Indigenous Peoples (UNDRIP)**;
+- relevant constitutional or statutory recognition of indigenous peoples;
+- linguistic-rights frameworks where applicable.
 
 ### Diagnostic questions
 
-1. Does the domestic legal instrument expressly mention indigenous peoples, or does it assume an urban, mestizo, Spanish-speaking legal subject?
+1. Does the domestic legal instrument expressly mention indigenous peoples, or does it assume an urban, dominant-language legal subject?
 2. Are there consultation mechanisms in the design, implementation, or revision of the instrument?
-3. Are services and procedures accessible in indigenous languages?
+3. Are services and procedures accessible in relevant indigenous or minority languages?
 4. Does the instrument recognise or ignore indigenous systems of care, justice, or social organisation?
 5. Does it address geographic access for remote communities?
-6. Do the programmes or mechanisms derived from the instrument require documentation that many indigenous persons may not possess in practice?
+6. Do the programmes or mechanisms derived from the instrument require documentation or access conditions that many rights-holders may not possess in practice?
 
 ### The trap of exclusionary universalism
 
 Some domestic legal instruments claim to protect “all persons” but design their access pathways around:
 
-- internet access,
-- official documentation,
-- geographic proximity to urban services,
-- and communication in Spanish.
+- internet access;
+- official documentation;
+- geographic proximity to urban services;
+- and communication in the dominant official language.
 
-In practice, such supposedly universal structures may exclude many indigenous rights-holders without naming them explicitly.
+In practice, such supposedly universal structures may exclude many rights-holders without naming them explicitly.
 
 ### Relevance for NormTrace
 
-NormTrace therefore asks not only whether the domestic legal instrument is formally universal, but whether its design is **socially and culturally reachable** for indigenous rights-holders.
+NormTrace therefore asks not only whether the domestic legal instrument is formally universal, but whether its design is **socially, culturally, and geographically reachable** for the rights-holders concerned.
+
+### Country-use note
+
+For detailed constitutional and institutional treatment of indigenous or culturally specific rights, analysts should consult the relevant country module in `references/countries/`.
 
 ---
 
@@ -195,11 +200,11 @@ For NormTrace, language analysis is important because terminology can convert a 
 
 Examples include:
 
-- “invalid”,
-- “incapable”,
-- “special needs”,
-- “suffers from”,
-- “victim of”,
+- “invalid”;
+- “incapable”;
+- “special needs”;
+- “suffers from”;
+- “victim of”;
 - broad labels that construct persons as passive recipients rather than active rights-holders.
 
 Such language may reinforce an assistentialist or medical model.
@@ -208,11 +213,11 @@ Such language may reinforce an assistentialist or medical model.
 
 Examples include:
 
-- “persons with disabilities”,
-- “reasonable accommodation”,
-- “universal accessibility”,
-- “rights-holders”,
-- “barriers”,
+- “persons with disabilities”;
+- “reasonable accommodation”;
+- “universal accessibility”;
+- “rights-holders”;
+- “barriers”;
 - “discrimination”.
 
 Such language is more consistent with a social and rights-based model.
