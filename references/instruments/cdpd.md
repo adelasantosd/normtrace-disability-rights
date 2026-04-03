@@ -1,14 +1,48 @@
 # Convention on the Rights of Persons with Disabilities (CRPD)
-## Reference Framework for Conventionality Analysis
+## Reference Framework for Conventionality and International Compatibility Analysis
 
 **Adopted:** 13 December 2006 — UN General Assembly Resolution A/RES/61/106  
-**Entry into force:** 3 May 2008  
-**Mexico ratification / accession:** 17 December 2007  
-**Optional Protocol ratified by Mexico:** 17 December 2007
+**Entry into force:** 3 May 2008
+
+## 1. Purpose of this file
+
+This file provides the core treaty-based reference framework for the **Convention on the Rights of Persons with Disabilities (CRPD)** within NormTrace.
+
+Its purpose is to support:
+
+- conventionality analysis;
+- international human rights compatibility analysis;
+- structured legal argumentation;
+- and the identification of normative and implementation-oriented gaps in domestic legal frameworks.
+
+This file should be read together with:
+
+- the relevant country module in `references/countries/`;
+- the operational guide in `references/instruments/cdpd-key-articles.md`;
+- and, where relevant, the case-law notes and analytical frameworks in the repository.
+
+### Use rule within NormTrace
+
+This file is **instrument-centred**, not **country-centred**.
+
+It therefore:
+
+- explains the Convention’s key provisions and interpretive relevance;
+- identifies major doctrinal implications for legal analysis;
+- and avoids hard-coding country-specific conclusions unless clearly identified as illustrative.
+
+Questions such as:
+
+- whether a state has ratified the Convention or its Optional Protocol;
+- whether an individual communications mechanism is available;
+- how the Convention operates in the domestic legal order;
+- and which domestic institutions serve as focal points or monitoring mechanisms;
+
+should be analysed primarily through the relevant country module.
 
 ---
 
-## 1. General principles (Article 3)
+## 2. General principles (Article 3)
 
 Article 3 sets out the eight general principles that should guide the interpretation of the Convention and any assessment of whether a domestic legal instrument is aligned with it:
 
@@ -23,11 +57,13 @@ h) respect for the evolving capacities of children with disabilities and respect
 
 ### Relevance for NormTrace
 
-When assessing a domestic legal instrument, these principles should be treated as cross-cutting interpretive criteria. The question is not only whether a provision is formally consistent with the text of the Convention, but whether its legal effect is coherent with these general principles.
+When assessing a domestic legal instrument, these principles should be treated as cross-cutting interpretive criteria.
+
+The question is not only whether a provision is formally consistent with the text of the Convention, but whether its legal effect is coherent with these general principles.
 
 ---
 
-## 2. General obligations of States Parties (Article 4)
+## 3. General obligations of States Parties (Article 4)
 
 Under Article 4, States Parties undertake to:
 
@@ -51,7 +87,7 @@ For domestic legal analysis, Article 4 is especially important when asking wheth
 
 ---
 
-## 3. Women with disabilities (Article 6) — priority provision
+## 4. Women with disabilities (Article 6)
 
 Article 6 recognises that women and girls with disabilities are subject to **multiple discrimination** and requires States Parties to take measures to ensure their full and equal enjoyment of all human rights and fundamental freedoms.
 
@@ -76,7 +112,7 @@ Article 6 should be used when assessing whether a domestic legal instrument:
 
 ---
 
-## 4. Children with disabilities (Article 7)
+## 5. Children with disabilities (Article 7)
 
 Article 7 requires States Parties to take all necessary measures to ensure the full enjoyment by children with disabilities of all human rights and fundamental freedoms on an equal basis with other children.
 
@@ -96,7 +132,7 @@ This provision is relevant when assessing whether domestic legal instruments:
 
 ---
 
-## 5. Accessibility (Article 9) — immediate and cross-cutting obligation
+## 6. Accessibility (Article 9)
 
 Article 9 requires States Parties to take appropriate measures to ensure access, on an equal basis with others, to:
 
@@ -129,7 +165,7 @@ NormTrace should assess whether a domestic legal instrument treats accessibility
 
 ---
 
-## 6. Equal recognition before the law (Article 12) — legally central and often contested
+## 7. Equal recognition before the law (Article 12)
 
 Article 12 provides that:
 
@@ -144,10 +180,6 @@ General Comment No. 1 interprets Article 12 as rejecting substituted decision-ma
 
 This interpretation has generated significant judicial and academic debate, but it remains the Committee’s authoritative interpretive position.
 
-### Relevance for Mexico
-
-Article 12 is particularly important in the Mexican context when reviewing legal provisions on guardianship, interdiction, substituted decision-making, and civil capacity.
-
 ### Relevance for NormTrace
 
 When analysing a domestic legal framework, the key question is whether it:
@@ -156,9 +188,13 @@ When analysing a domestic legal framework, the key question is whether it:
 - replaces or preserves substituted decision-making structures;
 - and provides support mechanisms together with adequate safeguards.
 
+### Country-use note
+
+Because domestic private law, guardianship structures, and civil-capacity regimes vary significantly across jurisdictions, country-specific assessment should be conducted through the relevant country module rather than assumed here.
+
 ---
 
-## 7. Access to justice (Article 13)
+## 8. Access to justice (Article 13)
 
 Article 13 requires States Parties to ensure effective access to justice for persons with disabilities on an equal basis with others, including through **procedural and age-appropriate accommodations**.
 
@@ -176,7 +212,7 @@ A domestic legal instrument should be assessed not only for whether it formally 
 
 ---
 
-## 8. Liberty and security of the person (Article 14)
+## 9. Liberty and security of the person (Article 14)
 
 Article 14 provides that persons with disabilities, on an equal basis with others:
 
@@ -195,7 +231,31 @@ This provision is especially relevant when assessing domestic legal instruments 
 
 ---
 
-## 9. Inclusive education (Article 24)
+## 10. Living independently and being included in the community (Article 19)
+
+Article 19 recognises the equal right of all persons with disabilities to live in the community, with choices equal to others, and requires States Parties to take effective and appropriate measures to facilitate full enjoyment of this right.
+
+This includes:
+
+- the opportunity to choose place of residence and with whom to live;
+- access to in-home, residential, and community support services;
+- and the prevention of isolation or segregation from the community.
+
+### General Comment No. 5 (2017)
+
+General Comment No. 5 clarifies the obligations relating to independent living, deinstitutionalisation, support services, and community inclusion.
+
+### Relevance for NormTrace
+
+A domestic legal instrument should be assessed for whether it:
+
+- supports independent living rather than segregation;
+- creates rights-based support systems rather than family-only or institutional default arrangements;
+- and treats community inclusion as a legal entitlement rather than a discretionary policy objective.
+
+---
+
+## 11. Inclusive education (Article 24)
 
 Article 24 recognises the right of persons with disabilities to education and requires States Parties to ensure an **inclusive education system at all levels**.
 
@@ -220,7 +280,7 @@ A domestic legal instrument should be assessed for whether it:
 
 ---
 
-## 10. Work and employment (Article 27)
+## 12. Work and employment (Article 27)
 
 Article 27 recognises the right of persons with disabilities to work on an equal basis with others, including the opportunity to gain a living by work freely chosen or accepted in a labour market and work environment that are **open, inclusive, and accessible**.
 
@@ -247,7 +307,7 @@ Article 27 should be used to assess whether a domestic legal framework:
 
 ---
 
-## 11. Adequate standard of living and social protection (Article 28)
+## 13. Adequate standard of living and social protection (Article 28)
 
 Article 28 recognises the right of persons with disabilities to an adequate standard of living for themselves and their families, including adequate food, clothing, and housing, and to the continuous improvement of living conditions.
 
@@ -268,7 +328,7 @@ This provision is useful when assessing whether domestic legal instruments:
 
 ---
 
-## 12. Participation in political and public life (Article 29)
+## 14. Participation in political and public life (Article 29)
 
 Article 29 requires States Parties to guarantee to persons with disabilities political rights and the opportunity to enjoy them on an equal basis with others.
 
@@ -289,7 +349,7 @@ A domestic legal framework should be assessed for whether it:
 
 ---
 
-## 13. National implementation and monitoring framework (Articles 33–34)
+## 15. National implementation and monitoring framework (Articles 33–34)
 
 ### Article 33 — National implementation and monitoring
 
@@ -307,7 +367,7 @@ Article 34 establishes the Committee on the Rights of Persons with Disabilities,
 
 - examines periodic reports submitted by States Parties;
 - issues concluding observations;
-- and, through the Optional Protocol, may receive individual communications and conduct inquiries in accordance with its competence.
+- and, where the Optional Protocol applies, may receive individual communications and conduct inquiries in accordance with its competence.
 
 ### Relevance for NormTrace
 
@@ -315,30 +375,38 @@ These provisions are particularly important when assessing whether a domestic le
 
 - has a credible focal point and coordination mechanism;
 - includes an adequately independent monitoring structure;
-- and recognises the participatory role of civil society and representative organisations of persons with disabilities.
+- recognises the participatory role of civil society and representative organisations of persons with disabilities;
+- and, where relevant, is situated within a state that has accepted the Optional Protocol procedures.
 
 ---
 
-## 14. Rapid conventionality checklist
-### Indicative comparison: CRPD and the Mexican disability framework
+## 16. Rapid analytical checklist
 
-| CRPD article | Right or principle | Indicative equivalent in Mexican disability law | Indicative type of gap |
+The following checklist is intended as a general operational aid rather than a country-specific scorecard.
+
+| CRPD article | Right or principle | Core analytical question | Typical red flag |
 |---|---|---|---|
-| **Article 3** | General principles | Partial | Language, model, and cross-cutting principles |
-| **Article 4** | General obligations | Partial | Scope of duties, especially regarding private actors |
-| **Article 5** | Equality and non-discrimination | Partial | Indirect and structural discrimination |
-| **Article 6** | Women with disabilities | Weak | Limited intersectional approach |
-| **Article 7** | Children with disabilities | Partial | Child-specific guarantees underdeveloped |
-| **Article 9** | Accessibility | Partial | Weak structural enforceability |
-| **Article 12** | Legal capacity | Critical gap | Substituted decision-making versus support |
-| **Article 13** | Access to justice | Weak | Procedural accommodation and accessibility gaps |
-| **Article 14** | Liberty and security | Gap | Disability-based deprivation of liberty concerns |
-| **Article 19** | Independent living | Weak / absent | Limited support and community-based systems |
-| **Article 24** | Inclusive education | Partial | Continued reliance on segregated structures |
-| **Article 27** | Work and employment | Partial | Accommodation and labour inclusion gaps |
-| **Article 29** | Political participation | Partial | Electoral accessibility and equal participation |
-| **Article 33** | National implementation and monitoring | Partial | Coordination and independence concerns |
+| **Article 3** | General principles | Is the domestic legal instrument coherent with dignity, autonomy, inclusion, accessibility, and equality? | Assistentialist language or model |
+| **Article 4** | General obligations | Does the framework create real implementation duties and reach relevant private actors where required? | Declaratory commitments only |
+| **Article 5** | Equality and non-discrimination | Does the instrument address direct, indirect, and structural discrimination? | Formal equality only |
+| **Article 6** | Women with disabilities | Does it recognise multiple and intersectional discrimination? | Gender-neutral disability framework |
+| **Article 7** | Children with disabilities | Does it include child-specific guarantees, participation, and best-interests reasoning? | Adult-centred design |
+| **Article 9** | Accessibility | Is accessibility treated as structural and enforceable? | Optional or delayed accessibility |
+| **Article 12** | Legal capacity | Does the framework preserve substituted decision-making or support equal legal capacity? | Guardianship/interdiction default |
+| **Article 13** | Access to justice | Are procedural accommodations and accessibility built into justice pathways? | Formal access without accommodation |
+| **Article 14** | Liberty and security | Does disability operate as a basis for detention or coercive confinement? | Disability-based deprivation of liberty |
+| **Article 19** | Independent living | Does the framework support community inclusion and support services? | Institutionalisation or family-only care |
+| **Article 24** | Inclusive education | Is inclusion the baseline, with accommodation and support? | Segregated education as default |
+| **Article 27** | Work and employment | Are discrimination, accommodation, and labour-market inclusion addressed? | No accommodation duty |
+| **Article 28** | Adequate standard of living | Does the framework create enforceable social protection access? | Purely discretionary benefits |
+| **Article 29** | Political participation | Are electoral access and equal participation guaranteed in practice? | Capacity-based exclusion |
+| **Article 33** | National implementation and monitoring | Is there a focal point, coordination, independent monitoring, and participation? | Coordination without independence or participation |
 
 ### Methodological note
 
-This checklist is only indicative. Any meaningful conventionality analysis requires reading the full domestic legal instrument, the relevant implementing framework, and the applicable interpretive materials.
+This checklist is indicative only. Any meaningful conventionality or compatibility analysis requires reading:
+
+- the full domestic legal instrument;
+- the relevant implementing framework;
+- the applicable interpretive materials;
+- and the relevant country module within the repository.
