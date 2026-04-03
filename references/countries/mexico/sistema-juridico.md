@@ -1,35 +1,47 @@
 # Mexico Legal System Module
 ## Country Reference Framework for NormTrace
-This document provides the country-specific legal reference framework used by NormTrace for context-sensitive normative analysis in Mexico. It is intended to support the pilot application on disability rights, while also serving as a reusable country module for future thematic extensions.
+
+**Country:** United Mexican States (Estados Unidos Mexicanos)  
+**Legal tradition:** Civil law  
+**Constitution in force:** Political Constitution of the United Mexican States (CPEUM), 1917  
+**Latest constitutional reform published:** 3 March 2026  
+**Official language:** Spanish  
+**Pilot relevance:** CRPD and disability-rights analysis in the Mexican domestic legal framework
+
+This document provides the country-specific legal reference framework used by NormTrace for context-sensitive normative analysis in Mexico. It is intended to support the pilot application on disability rights while also serving as a reusable country module for future thematic extensions.
 
 Its purpose is not to replace doctrinal legal research, but to provide the constitutional, institutional, and legislative context required to interpret domestic legal instruments in light of international standards.
 
+---
+
 ## 1. Normative hierarchy in Mexico
-Following the 2011 constitutional reform on human rights, legal analysis in Mexico must take into account not only the formal hierarchy of legal sources, but also the constitutional parameter of rights review shaped by Articles 1 and 133 of the Constitution and the interpretive framework developed by the Supreme Court.
+
+Following the 2011 constitutional reform on human rights, legal analysis in Mexico must take into account not only the formal hierarchy of legal sources, but also the **constitutional parameter of rights review** shaped by Articles 1 and 133 of the Constitution and the interpretive framework developed by the Supreme Court.
 
 A simplified working hierarchy for NormTrace is as follows:
 
-```
-CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS (CPEUM)
-  + Tratados internacionales en materia de DDHH (mismo nivel, pro persona)
+```text
+POLITICAL CONSTITUTION OF THE UNITED MEXICAN STATES (CPEUM)
+  + International human rights treaties within the constitutional parameter of rights review
        ↓
-TRATADOS INTERNACIONALES (otras materias)
+OTHER INTERNATIONAL TREATIES
        ↓
-LEYES CONSTITUCIONALES / LEYES GENERALES / LEYES FEDERALES / LEYES ORGÁNICAS
+GENERAL LAWS / FEDERAL LAWS / ORGANIC LAWS / OTHER STATUTORY ACTS
        ↓
-LEYES ESTATALES (en sus competencias)
+STATE LAWS (within their sphere of competence)
        ↓
-REGLAMENTOS FEDERALES
+FEDERAL REGULATIONS
        ↓
-REGLAMENTOS ESTATALES / MUNICIPALES
+STATE AND MUNICIPAL REGULATIONS
        ↓
-NORMAS OFICIALES MEXICANAS (NOM) / NORMAS MEXICANAS (NMX)
+OFFICIAL MEXICAN STANDARDS (NOMs) / MEXICAN STANDARDS (NMXs)
        ↓
-ACUERDOS / CIRCULARES ADMINISTRATIVAS
+ADMINISTRATIVE AGREEMENTS / CIRCULARS
+
 ```
 For analytical purposes, this means that domestic legislation should not be assessed in isolation. Laws must be read in light of the constitutional human rights framework and the applicable international standards.
 
-**Key reference**: Supreme Court of Justice of the Nation, Contradicción de Tesis 293/2011; Articles 1 and 133 CPEUM.
+**Key reference**: Articles 1 and 133 CPEUM; Contradicción de Tesis 293/2011.
 
 ---
 
@@ -71,7 +83,7 @@ Diffuse or poorly allocated competences may signal implementation fragility even
 
 ### Updating note on the 2025 reforms
 
-The 2025 reforms to the **Ley de Amparo** did not eliminate these review mechanisms, but they did modify the procedural framework in relevant ways. The **13 March 2025** reform restated that when a court declares a challenged general norm unconstitutional in amparo, the operative effect is **inaplicación only with respect to the claimant**, even if the judgment may extend to dependent norms or acts for that claimant’s protection. The same reform also preserved the mechanism of **declaratoria general de inconstitucionalidad** after notice to the norm-issuing authority and the expiry of the 90-day period without correction.  [oai_citation:0‡Diario Oficial de la Federación](https://www.dof.gob.mx/nota_detalle.php%3Fcodigo%3D5751769%26fecha%3D13/03/2025?utm_source=chatgpt.com)
+The 2025 reforms to the **Ley de Amparo** did not eliminate these review mechanisms, but they did modify the procedural framework in relevant ways. The **13 March 2025** reform restated that when a court declares a challenged general norm unconstitutional in amparo, the operative effect is **inaplicación only with respect to the claimant**, even if the judgment may extend to dependent norms or acts for that claimant’s protection. The same reform also preserved the mechanism of **declaratoria general de inconstitucionalidad** after notice to the norm-issuing authority and the expiry of the 90-day period without correction.  [oai_citation:0‡Diario Oficial de la Federación](https://www.dof.gob.mx/nota_detalle.php%3Fcodigo%3D5751769%26fecha%3D13/03/2025?)
 
 For the general declaration mechanism, the March 2025 reform provides that the Supreme Court’s Plenary shall issue the **declaratoria general de inconstitucionalidad** once the constitutional conditions are met and the decision is approved by **at least six votes**. The decree also contains a transitory rule referring to **eight votes** for certain pending matters during the transition created by that reform, so analysts should distinguish the permanent amended provision from the temporary transitory regime when reading 2025 materials.  [oai_citation:1‡Diario Oficial de la Federación](https://www.dof.gob.mx/nota_detalle.php%3Fcodigo%3D5751769%26fecha%3D13/03/2025?)
 
@@ -149,23 +161,24 @@ These drafting patterns are not merely stylistic. They often affect:
 
 ## 6.CONADIS as a case of institutional design
 
-**Legal status**: CONADIS is a decentralised public body within the federal administration. It was created under the Ley General para la Inclusión de las Personas con Discapacidad (LGIPD) and is linked to the health sector.
+**Legal status**: CONADIS is a decentralised public body within the federal administration. It was created under the Ley General para la Inclusión de las Personas con Discapacidad (LGIPD) and is linked to the health sector. It has legal personality, its own assets, and technical and management autonomy under the terms of the statute.
 
 **Main statutory functions**: 
 Its principal functions include:
 - coordinating the National System for the Development and Inclusion of Persons with Disabilities (SINADIS),
+- contributing to the development of disability-related public policy;
+- promoting participation by public, private, and social sectors;
 - drafting the national disability inclusion programme,
 - representing the federal government in disability-related international settings,
+- serving as a focal institutional point in disability policy,
 - and acting as the State focal point under the CRPD.
 
 ### Analytical observations:
 
 From the perspective of NormTrace, CONADIS is relevant as an institutional design case.
-**Sectoral location**
-Its location within the health apparatus may reinforce a medicalised governance logic rather than a broader rights-based approach.
-**Budgetary dependence**
-Its effective autonomy may be limited by dependence on ministerial budget structures.
-**Lack of sanctioning powers**
+**Sectoral location and administrative dependence: ** the institutional location of disability policy may affect whether the framework operates through a rights-based or more sectorally limited logic.
+**Budgetary dependence:** formal autonomy does not necessarily guarantee effective budgetary autonomy.
+**Lack of sanctioning powers:**
 Coordination without sanctioning capacity may weaken intersectoral implementation.
 **Thin coordination architecture**
 A coordination system may exist in formal legal terms while remaining institutionally weak in practice if it lacks structure, budget, or binding authority.
@@ -256,4 +269,4 @@ verify whether the legal instrument under review is a general law, federal law, 
 - treat budget-conditioned obligations with caution;
 - and situate domestic analysis within the constitutional and treaty-based human rights framework.
 
-In the Mexican context, legal adequacy often depends as much on institutional architecture and competence allocation as on the wording of rights provisions themselves
+In the Mexican context, legal adequacy often depends as much on institutional architecture and competence allocation as on the wording of rights provisions themselves. 
