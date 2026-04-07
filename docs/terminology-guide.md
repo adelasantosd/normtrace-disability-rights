@@ -16,7 +16,10 @@ The broader analytical objective of assessing whether a domestic legal framework
 The more specific assessment of whether a domestic legal instrument is compatible with the relevant international legal instrument.
 
 ### Conventionality analysis
-The structured method used to assess compatibility between domestic law and applicable international human rights standards.
+A jurisdiction-sensitive form of review used especially in the Mexican and Inter-American context to assess whether a domestic legal framework or domestic legal instrument is compatible with applicable international human rights standards.
+
+### International human rights compatibility analysis
+The broader repository term for assessing whether a domestic legal framework or domestic legal instrument gives adequate legal effect to the relevant international standard. This term is especially useful in jurisdictions such as Switzerland, where the language of conventionality control is less precise.
 
 ## 2. Legal context terms
 
@@ -34,6 +37,18 @@ The applicable norm derived from treaty text together with its relevant authorit
 
 ### Constitutional parameter of rights review
 The constitutional and treaty-based framework used for rights review in the Mexican context.
+
+### Country module
+A repository file that provides jurisdiction-specific legal and institutional context for analysis.
+
+### Rapid operational reference
+A short instrument-centred file designed to identify core provisions, minimum standards, interpretive materials, and red flags quickly.
+
+### Case-law notes
+A support file identifying selected doctrinally relevant judicial or interpretive materials without claiming to be an exhaustive digest.
+
+### Cantonal analysis protocol
+A subnational operational file used in the Swiss context to analyse cantonal domestic legal instruments in relation to federal law, cantonal competence, and international standards.
 
 ## 3. Analytical terms
 
@@ -77,6 +92,9 @@ These pairs are not always equivalent and should not be treated as if they were 
 - Use **legal compatibility** for the specific contrast between domestic and international law.
 - Use **implementation-oriented gap** for deficiencies linked to operational legal effect.
 - Use **rights-holders** unless critically describing the language of a domestic legal instrument.
+- Use **constitutional parameter of rights review** where specifically referring to the Mexican doctrinal context.
+- Use **international human rights compatibility analysis** as the broader cross-jurisdictional term.
+- Use **conventionality analysis** where that framing is doctrinally appropriate, especially in the Mexican and Inter-American context.
 
 ## 6. Methodological note
 
