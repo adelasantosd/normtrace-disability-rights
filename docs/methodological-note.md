@@ -118,7 +118,7 @@ This stage focuses on what the domestic legal instrument omits and on the differ
 - whether legal language itself functions as a mechanism of exclusion;
 - and whether normative silence generates subgroup-specific barriers.
 
-### Stage 3. Conventionality and international alignment analysis
+### Stage 3. Conventionality analysis and international human rights compatibility analysis
 
 The domestic legal framework is assessed against the applicable international legal instrument through a functional legal comparison. The methodology focuses on legal effect rather than textual symmetry.
 
