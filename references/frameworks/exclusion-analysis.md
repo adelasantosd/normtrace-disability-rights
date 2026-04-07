@@ -35,6 +35,8 @@ This distinction is important because exclusion may arise through:
 
 NormTrace therefore treats exclusion analysis as part of broader **normative alignment** and **legal compatibility** review.
 
+Jurisdiction-specific examples in this framework are illustrative and must be interpreted through the relevant country module.
+
 ### Reference points
 
 Relevant legal and interpretive materials include:
