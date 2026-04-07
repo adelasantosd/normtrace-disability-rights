@@ -21,7 +21,7 @@ The protocol is designed for the structured review of laws, decrees, regulations
 - legal compatibility with international standards;
 - and implementation-oriented gaps.
 
-The current pilot application focuses on **disability rights in Mexico**, with an initial contrast between the **Convention on the Rights of Persons with Disabilities (CRPD)** and the Mexican domestic legal framework.
+The current pilot application focuses on **disability rights** in **Mexico** and **Switzerland**, with the **Convention on the Rights of Persons with Disabilities (CRPD)** as the primary international legal instrument.
 
 ---
 
@@ -34,16 +34,18 @@ It is distinct from:
 - `docs/methodological-note.md`, which explains the project’s analytical problem, theoretical foundations, scope, and limitations;
 - `docs/terminology-guide.md`, which fixes the repository’s core vocabulary;
 - the thematic analytical frameworks in `references/frameworks/`;
-- the country-specific module in `references/countries/`;
+- the country-specific modules in `references/countries/`;
 - the international instrument files in `references/instruments/`;
 - and the case-law notes in `references/case-law-notes/`.
 
-Where there is any uncertainty about interpretation, the protocol must prioritise:
+Where there is uncertainty about interpretation, the protocol must prioritise:
+
 1. primary legal sources;
 2. the terminology guide;
 3. the relevant analytical framework;
-4. the full instrument file;
-5. and explicit acknowledgement of uncertainty.
+4. the relevant country module;
+5. the full instrument file;
+6. and explicit acknowledgement of uncertainty.
 
 ---
 
@@ -59,11 +61,12 @@ The legal meaning of a domestic legal instrument depends not only on what the te
 - the rights-holders it includes or leaves unaddressed;
 - the obligations it assigns or leaves undefined;
 - the funding, coordination, and enforcement mechanisms it creates or omits;
+- the competence level at which it operates;
 - and the practical enforceability of its guarantees.
 
 **Normative silence is analytically relevant.**
 
-A domestic legal instrument may appear rights-compatible in wording while remaining structurally weak, exclusionary, or only partially aligned with the applicable international standard.
+A domestic legal instrument may appear rights-compatible in wording while remaining structurally weak, exclusionary, jurisdictionally mislocated, or only partially aligned with the applicable international standard.
 
 ---
 
@@ -73,12 +76,14 @@ A domestic legal instrument may appear rights-compatible in wording while remain
 2. Do **not** assume that a domestic legal instrument is current if the date or version is uncertain.
 3. Do **not** treat mention of a right as evidence of full legal compatibility.
 4. Do **not** confuse declaratory language with enforceable obligation.
-5. Do **not** collapse structural analysis, exclusion analysis, and conventionality analysis into a single step.
+5. Do **not** collapse structural analysis, exclusion analysis, and conventionality or compatibility analysis into a single step.
 6. Do **not** treat treaty text, case law, General Comments, and concluding observations as equivalent sources; distinguish their role.
 7. Do **not** overstate the binding force of interpretive materials where their status is persuasive rather than formally binding.
 8. Do **not** move to reform recommendation before clearly identifying the legal problem and the applicable standard.
 9. Where uncertainty exists, state it explicitly.
 10. Where the text is incomplete, historical, partial, or unverified, say so before proceeding.
+11. Do **not** assume that the Mexican model of conventionality control applies unchanged to Switzerland or to other jurisdictions.
+12. In Swiss analysis, do **not** assume that all relevant treaty provisions are directly applicable without issue-specific assessment.
 
 ---
 
@@ -98,7 +103,11 @@ The following terms should remain stable across outputs:
 - **legal compatibility**
 - **implementation-oriented gap**
 - **rights-holders**
-- **constitutional parameter of rights review** (for the Mexican context, where applicable)
+
+Use jurisdiction-sensitive terms where appropriate:
+
+- **constitutional parameter of rights review** — for the Mexican context, where applicable
+- **international human rights compatibility analysis** — especially for the Swiss context
 
 Avoid unnecessary alternation with near-synonyms unless a specific doctrinal distinction is required.
 
@@ -120,14 +129,20 @@ Before producing analysis, consult repository materials in the following order.
 - `references/frameworks/legal-argumentation.md`
 
 ### 3. Country-specific legal context
-For the current pilot:
+
+#### For Mexico
 - `references/countries/mexico/legal-system.md`
 
-If the repository still uses the Spanish filename instead:
-- `references/countries/mexico/sistema-juridico.md`
+#### For Switzerland (federal level)
+- `references/countries/switzerland/legal-system.md`
+
+#### For Switzerland (cantonal level)
+Read both:
+- `references/countries/switzerland/legal-system.md`
+- `references/countries/switzerland/cantonal-analysis-protocol.md`
 
 ### 4. International legal instrument files
-Use these in two layers:
+Use these in two layers.
 
 #### Rapid operational reference
 Read the relevant `*-key-articles.md` file first.
@@ -146,6 +161,7 @@ Read the full instrument file where the issue is:
 - legally complex;
 - partially aligned;
 - contested;
+- jurisdictionally sensitive;
 - article-specific;
 - or likely to require structured legal argumentation.
 
@@ -153,11 +169,15 @@ For the current pilot:
 - `references/instruments/cdpd.md`
 
 ### 5. Case-law and interpretive support
-Where relevant, consult:
+
+#### For Mexico
 - `references/case-law-notes/disability-rights-mexico.md`
 
-Use this file selectively to identify doctrinally relevant standards.  
-Do **not** use it as a mechanical checklist of citations.
+#### For Switzerland
+- `references/case-law-notes/disability-rights-switzerland.md`
+
+Use these files selectively to identify doctrinally relevant standards.  
+Do **not** use them as mechanical checklists of citations.
 
 ---
 
@@ -172,7 +192,8 @@ Possible sources may include:
 - official legal databases;
 - government gazettes;
 - legislative portals;
-- institutional repositories.
+- institutional repositories;
+- cantonal or municipal legal collections where relevant.
 
 The analyst must verify, where possible:
 
@@ -180,30 +201,55 @@ The analyst must verify, where possible:
 - whether it is current;
 - whether amendments or later reforms may affect interpretation;
 - whether the text corresponds to the actual instrument being analysed;
-- whether the instrument is federal, state-level, municipal, regulatory, technical, or otherwise context-specific.
+- whether the instrument is federal, state-level, cantonal, municipal, regulatory, technical, or otherwise context-specific.
 
 ### Stage 0 output requirement
 
 Before moving forward, state clearly:
 
 - the name of the domestic legal instrument;
-- the apparent jurisdiction;
+- the jurisdiction;
 - the level of normativity;
-- the available version/date information;
+- the apparent date/version information;
 - and any uncertainty affecting the analysis.
 
 If the text is partial, outdated, or uncertain, explicitly flag the limitation.
 
 ---
 
+## Jurisdiction-routing rule
+
+Before Stage 1, determine the jurisdictional route.
+
+### Route A — Mexico
+Use the Mexico country module and, where relevant, the logic of **conventionality control** within the constitutional parameter of rights review.
+
+### Route B — Switzerland, federal level
+Use the Switzerland legal-system module and frame Stage 3 primarily as **international human rights compatibility analysis**.
+
+### Route C — Switzerland, cantonal level
+Use the Switzerland legal-system module **plus** the cantonal-analysis-protocol file.
+At Stage 1 and Stage 3, identify:
+
+- the canton;
+- the level of normativity;
+- the relevant competence structure;
+- whether federal law occupies or structures the field;
+- and how international standards relate to cantonal implementation.
+
+Do **not** begin substantive analysis before the jurisdictional route is clear.
+
+---
+
 ## Stage 1. Structural analysis of the domestic legal instrument
 
-This stage examines the formal anatomy, institutional architecture, and enforceability structure of the domestic legal instrument.
+This stage examines the formal anatomy, institutional architecture, competence context, and enforceability structure of the domestic legal instrument.
 
 ### Files to consult
 - `references/frameworks/structural-analysis.md`
-- `references/countries/mexico/legal-system.md`
-- or `references/countries/mexico/sistema-juridico.md`
+- relevant country module
+- for Swiss cantonal instruments, also:
+  - `references/countries/switzerland/cantonal-analysis-protocol.md`
 
 ### 1.1 Formal anatomy
 
@@ -211,9 +257,9 @@ Identify:
 
 - type of domestic legal instrument;
 - place in the domestic normative hierarchy;
-- date of enactment and latest reform;
+- date of enactment and latest reform where available;
 - structure by titles, chapters, sections, or articles;
-- whether the instrument is constitutional, general, federal, state-level, regulatory, technical, or administrative.
+- whether the instrument is constitutional, statutory, general, federal, cantonal, state-level, regulatory, technical, or administrative.
 
 ### 1.2 Normative actor mapping
 
@@ -245,7 +291,7 @@ Assess whether the domestic legal instrument:
 - delegates downward;
 - disperses duties without coordination;
 - creates concurrent obligations;
-- or creates a coherent intersectoral framework.
+- or creates a coherent intersectoral or multilevel framework.
 
 Where relevant, ask whether there is:
 
@@ -274,8 +320,9 @@ Assess whether the domestic legal instrument includes:
 At the end of this stage, the analysis should be able to state clearly:
 
 - what kind of domestic legal instrument is being analysed;
+- at what level of government it operates;
 - who is responsible for implementation;
-- whether the institutional design is coherent;
+- whether the competence structure is coherent;
 - and whether the rights recognised are structurally enforceable or primarily declaratory.
 
 ---
@@ -288,8 +335,7 @@ This stage examines what the domestic legal instrument does not adequately artic
 - `references/frameworks/exclusion-analysis.md`
 - where relevant:
   - `references/frameworks/structural-analysis.md`
-  - `references/countries/mexico/legal-system.md`
-  - `references/countries/mexico/sistema-juridico.md`
+  - relevant country module
 
 ### 2.1 Subject of rights
 
@@ -320,17 +366,18 @@ Examine whether the instrument accounts for intersections with factors such as:
 - age;
 - poverty;
 - rurality;
+- linguistic difference;
 - sexual orientation;
 - gender identity;
 - deprivation of liberty;
-- other relevant forms of structural disadvantage.
+- and other relevant forms of structural disadvantage.
 
-### 2.4 Indigenous perspective and cultural accessibility
+### 2.4 Cultural, territorial, and linguistic accessibility
 
 Where relevant, assess whether the domestic legal instrument:
 
-- recognises indigenous peoples;
-- incorporates consultation standards;
+- recognises minority or indigenous populations where applicable;
+- incorporates consultation standards where applicable;
 - accounts for cultural and linguistic accessibility;
 - recognises geographic and documentary barriers;
 - and avoids assuming a single homogeneous rights environment.
@@ -364,7 +411,7 @@ At the end of this stage, the analysis should be able to specify:
 
 ---
 
-## Stage 3. Conventionality and international alignment analysis
+## Stage 3. Conventionality or international compatibility analysis
 
 This stage compares the domestic legal framework with the relevant international legal instrument through legal function and effect rather than textual symmetry alone.
 
@@ -372,8 +419,7 @@ This stage compares the domestic legal framework with the relevant international
 - `references/frameworks/conventionality-analysis.md`
 - `references/instruments/cdpd-key-articles.md`
 - `references/instruments/cdpd.md`
-- where relevant:
-  - `references/case-law-notes/disability-rights-mexico.md`
+- relevant case-law notes where needed
 
 ### 3.1 Applicable standard
 
@@ -387,7 +433,23 @@ Identify the applicable international and domestic interpretive framework, which
 - domestic high-court doctrine;
 - and other authoritative or persuasive interpretive materials.
 
-### 3.2 Instrument reference workflow
+### 3.2 Jurisdiction-sensitive framing
+
+#### In Mexico
+Frame this stage primarily through:
+- conventionality control;
+- the constitutional parameter of rights review;
+- and domestic high-court doctrine where relevant.
+
+#### In Switzerland
+Frame this stage primarily through:
+- international human rights compatibility analysis;
+- monist incorporation of international law;
+- direct applicability where relevant;
+- federal–cantonal competence interaction;
+- and ECHR or constitutional equality pathways where judicially useful.
+
+### 3.3 Instrument reference workflow
 
 Use instrument files in two layers.
 
@@ -405,12 +467,12 @@ Read the full instrument file when:
 - the issue is legally complex or contested;
 - the domestic legal instrument appears only partially aligned;
 - the analysis requires article-specific nuance;
-- or the output requires structured legal argumentation for litigation, legislative advocacy, or institutional review.
+- or the output requires structured legal argumentation.
 
 The short instrument files are intended for orientation and analytical triage.  
 The full instrument files remain the authoritative internal reference within the repository.
 
-### 3.3 Functional contrast
+### 3.4 Functional contrast
 
 Assess whether the domestic legal instrument is consistent with principles such as:
 
@@ -424,7 +486,7 @@ Assess whether the domestic legal instrument is consistent with principles such 
 - participation;
 - autonomy where relevant.
 
-### 3.4 Gap identification
+### 3.5 Gap identification
 
 Classify findings where relevant as:
 
@@ -445,7 +507,7 @@ At the end of this stage, the analysis should be able to state:
 - which international standard is engaged;
 - how the domestic legal instrument relates to it;
 - what type of gap exists;
-- and whether the problem concerns legal compatibility, normative under-specification, exclusionary design, or implementation-oriented deficiency.
+- and whether the problem concerns legal compatibility, normative under-specification, exclusionary design, competence structure, or implementation-oriented deficiency.
 
 ---
 
@@ -455,10 +517,9 @@ This stage translates analytical findings into structured legal arguments suited
 
 ### Files to consult
 - `references/frameworks/legal-argumentation.md`
-- where relevant:
-  - `references/case-law-notes/disability-rights-mexico.md`
-  - relevant instrument files
-  - relevant country module
+- relevant case-law notes
+- relevant instrument files
+- relevant country module
 
 ### Required components of each argument
 
@@ -503,7 +564,7 @@ Depending on the use case, the protocol may support outputs such as:
 - advocacy documents;
 - structured argument sets for litigation support;
 - institutional review notes;
-- rapid conventionality checklists;
+- rapid compatibility checklists;
 - coding-ready analytical summaries.
 
 ### Output discipline
@@ -533,6 +594,7 @@ This is not a substitute for full legal analysis. It is an additional layer desi
 Where feasible, record findings in a structured way using fields such as:
 
 - `jurisdiction`
+- `subnational_level`
 - `domestic_legal_instrument`
 - `legal_instrument_type`
 - `date_of_version_analysed`
@@ -550,7 +612,7 @@ Where feasible, record findings in a structured way using fields such as:
 - `participation_mechanism_present` (yes/no/uncertain)
 - `gender_dimension_present` (yes/no/partial)
 - `intersectional_dimension_present` (yes/no/partial)
-- `indigenous_dimension_present` (yes/no/partial)
+- `cultural_or_linguistic_dimension_present` (yes/no/partial)
 - `language_model` (rights-based / assistentialist / mixed)
 - `overall_normative_alignment` (high / medium / low / indeterminate)
 - `notes_on_uncertainty`
@@ -570,13 +632,13 @@ The protocol is modular.
 To extend it to other jurisdictions or policy domains, the analyst should incorporate:
 
 - a country-specific legal hierarchy module;
-- the relevant constitutional parameter of rights review or equivalent domestic framework;
+- the relevant domestic review or compatibility framework;
 - the institutional enforcement context;
 - the relevant international legal instruments;
 - corresponding key-articles files where available;
 - and any domain-specific case-law notes.
 
-The current repository documents the **Mexico disability-rights pilot**, but the protocol is designed for future extension to broader rights and governance domains.
+The current repository documents a **Mexico–Switzerland disability-rights pilot**, but the protocol is designed for future extension to broader rights and governance domains.
 
 ---
 
@@ -591,7 +653,8 @@ The current repository documents the **Mexico disability-rights pilot**, but the
 7. Do not infer implementation merely because a duty is declared in statutory text.  
 8. Where the text is incomplete, outdated, or uncertain, say so explicitly rather than filling the gap by assumption.  
 9. Use structured outputs to support later comparison, not to replace interpretive judgement.  
-10. Quantification must remain subordinate to legal interpretation, not the reverse.
+10. Quantification must remain subordinate to legal interpretation, not the reverse.  
+11. In multilevel systems, competence location is part of the legal analysis, not a secondary administrative detail.
 
 ---
 
@@ -600,17 +663,18 @@ The current repository documents the **Mexico disability-rights pilot**, but the
 When using this protocol, proceed in the following order:
 
 1. identify and verify the domestic legal instrument;
-2. determine the relevant jurisdictional and normative context;
-3. analyse structural design;
-4. identify omissions, exclusions, and subgroup-specific barriers;
-5. determine the applicable international standard;
-6. assess normative alignment and legal compatibility;
-7. classify the type of gap;
-8. translate the finding into structured legal argument where required;
-9. produce an output appropriate to the intended forum;
-10. where useful, produce a coding-ready structured summary for later comparative analysis.
+2. determine the jurisdictional route and level of normativity;
+3. determine the relevant country module and, where applicable, subnational protocol;
+4. analyse structural design;
+5. identify omissions, exclusions, and subgroup-specific barriers;
+6. determine the applicable international standard;
+7. assess normative alignment and legal compatibility;
+8. classify the type of gap;
+9. translate the finding into structured legal argument where required;
+10. produce an output appropriate to the intended forum;
+11. where useful, produce a coding-ready structured summary for later comparative analysis.
 
 Do not skip structural analysis.  
 Do not skip exclusion analysis.  
-Do not skip conventionality analysis where an international legal instrument is relevant.  
+Do not skip compatibility analysis where an international legal instrument is relevant.  
 Do not collapse diagnosis into advocacy without first identifying the legal basis.
