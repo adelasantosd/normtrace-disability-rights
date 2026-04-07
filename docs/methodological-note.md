@@ -1,14 +1,16 @@
 # NormTrace
 ## Methodological Note
-**Version 1.0 — March 2025**  
-**Initial scope:** Mexico  
-**Pilot case:** CRPD and the Mexican domestic legal framework
+**Version 2.0 — 2026**  
+**Current pilot jurisdictions:** Mexico; Switzerland  
+**Current pilot field:** Disability rights  
+**Core international legal instrument:** Convention on the Rights of Persons with Disabilities (CRPD)
+
 
 ## 1. Introduction and purpose
 
-NormTrace is a structured methodological tool for deep normative legal analysis. It was developed to move beyond purely textual approaches to legislative review, such as keyword searching or formal article-by-article comparison, and to support a more rigorous assessment of how **domestic legal frameworks** align with **international legal instruments**.
+NormTrace is a repository-based, AI-assisted analytical system for multilevel normative analysis. It was developed to move beyond purely textual approaches to legislative review, such as keyword searching or formal article-by-article comparison, and to support a more rigorous assessment of how domestic legal frameworks and domestic legal instruments align with relevant international legal instruments and international standards.
 
-The current pilot focuses on disability rights in Mexico, using an initial contrast between the **Convention on the Rights of Persons with Disabilities (CRPD)** and the Mexican domestic legal framework, with particular reference to the **Ley General para la Inclusión de las Personas con Discapacidad (LGIPD)**. This pilot serves as a proof of concept for a broader analytical architecture that may later be extended to other jurisdictions, policy domains, and international commitments.
+The current pilot focuses on disability rights in Mexico and Switzerland, using the Convention on the Rights of Persons with Disabilities (CRPD) as the primary international benchmark. In Mexico, the pilot engages the domestic disability-related legal framework with particular reference to the LGIPD. In Switzerland, it engages the federal disability-equality framework, including the BehiG/LHand/LDis, while also recognising the analytical relevance of cantonal implementation.
 
 The central methodological premise is that a domestic legal instrument cannot be assessed solely by what it declares. Legal analysis must also consider what the norm enables, omits, obscures, distributes, and renders enforceable. A norm is not only a textual artefact; it is also an institutional arrangement that shapes rights, duties, access, remedies, participation, and visibility.
 
@@ -34,11 +36,15 @@ NormTrace is grounded in the doctrinal architecture of international human right
 
 The tool therefore treats domestic legal analysis as inseparable from the international legal instruments that bind or orient state action.
 
-### 3.2 Conventionality control and domestic legal review
+### 3.2 Conventionality analysis and international human rights compatibility analysis
 
-In the Mexican context, the methodology is informed by the logic of **conventionality control**, particularly after the 2011 constitutional reform on human rights. This implies that domestic legal instruments should be assessed not only against constitutional text, but also in light of applicable international human rights treaties and their authoritative interpretation.
+NormTrace uses a jurisdiction-sensitive approach to the relationship between domestic law and international standards.
 
-For the purposes of this pilot, conventionality analysis does not mean simple textual comparison. It means evaluating whether the domestic legal framework gives adequate legal effect to the **international standard** established by the relevant international legal instrument.
+In the Mexican context, the methodology is informed by the logic of conventionality analysis within the constitutional parameter of rights review, especially after the 2011 constitutional reform on human rights.
+
+In the Swiss context, the functionally comparable inquiry is better framed as international human rights compatibility analysis. There, the relevant questions concern monist incorporation, direct applicability, federal structure, cantonal implementation, and the interaction between domestic constitutional guarantees, federal statutory law, and international human rights obligations.
+
+For the purposes of NormTrace, neither of these approaches is reduced to simple textual comparison. In both cases, the task is to assess whether the domestic legal framework gives adequate legal effect to the relevant international standard.
 
 ### 3.3 Social model of disability
 
@@ -60,7 +66,7 @@ This does not imply collapsing all normative systems into one analytical plane. 
 
 ## 4. What NormTrace is and what it is not
 
-NormTrace is a **structured methodological tool** that guides legal analysis through a reproducible sequence of interpretive steps supported by reference frameworks, country modules, instrument files, case-law notes, and primary legal materials.
+NormTrace is a repository-based, AI-assisted analytical system that guides legal analysis through a reproducible sequence of interpretive steps supported by reference frameworks, country modules, instrument files, case-law notes, and primary legal materials.
 
 It is not:
 
@@ -148,19 +154,20 @@ The methodology may generate outputs in different formats depending on use:
 - institutional review notes;
 - and coding-ready analytical summaries for later comparative or mixed-method work.
 
-## 6. Pilot scope
+## 6. Current pilot scope
 
 The present pilot is limited to:
 
-- **jurisdiction:** Mexico;
-- **substantive area:** disability rights;
-- **initial contrast:** CRPD and the Mexican domestic legal framework, with particular emphasis on the LGIPD.
+- **jurisdictions:** Mexico; Switzerland
+- **substantive area:** disability rights
+- **core international legal instrument:** CRPD
+- **current domestic pilot focus:** Mexican disability-related legal framework, especially the LGIPD; Swiss disability-equality framework, especially the BehiG/LHand/LDis, with cantonal relevance where implementation is subnational
 
-This focus was chosen because it offers a strong international benchmark, a rich doctrinal field, and a clear opportunity to test the methodology against a legal domain where language, institutional design, accessibility, participation, and enforceability are particularly important.
+This focus was chosen because it offers a strong international benchmark, a rich doctrinal field, and a particularly useful comparison between jurisdictions with different constitutional structures, review pathways, and subnational implementation logics.
 
 ## 7. Scalability
 
-Although the current repository documents a pilot for disability rights in Mexico, the underlying architecture is modular and extensible.
+Although the current repository documents a disability-rights pilot centred on Mexico and Switzerland, the underlying architecture is modular and extensible.
 
 In principle, the same analytical structure may be adapted to:
 
@@ -193,10 +200,11 @@ Its findings should therefore be understood as part of a broader analytical proc
 
 It may support later coding and comparison, but such structured outputs do not replace interpretive legal analysis.
 
+
 ## 10. Suggested citation
 
 **Provisional citation:**
 
-Santos-Domínguez, Adela B. (2025). *NormTrace v1.0: Pilot methodology for assessing domestic normative alignment with international disability rights standards in Mexico*. GitHub repository.
+Santos-Domínguez, Adela B. (2026). *NormTrace v2.0: Methodological note for a repository-based AI-assisted system for multilevel normative analysis*. GitHub repository.
 
 A Zenodo DOI will be added upon first archived release.
