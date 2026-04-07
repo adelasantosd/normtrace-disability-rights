@@ -36,6 +36,8 @@ Different forms of legal argument require different structures, levels of techni
 
 The same analytical finding may need to be reformulated differently depending on the forum. A legally robust argument is not only one that is doctrinally correct, but one that is appropriately structured for its intended audience.
 
+Jurisdiction-specific references or examples are illustrative and should be used together with the relevant country module and forum-specific context.
+
 ---
 
 ## 2. Structure of a strong legal argument
