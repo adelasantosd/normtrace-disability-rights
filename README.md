@@ -227,15 +227,17 @@ Its findings should therefore be understood as part of a broader analytical proc
 
 ## Citation
 
-**Suggested provisional citation:**
+If you use this repository, please cite the archived Zenodo release:
 
-Santos-Domínguez, Adela B. (2026). *NormTrace v2.0: Repository-based AI-assisted system for multilevel normative analysis*. GitHub repository.
+Santos-Domínguez, A. B. (2026). *NormTrace* (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.19452837
 
-A Zenodo DOI will be added upon first archived release.
+Concept DOI for all versions:
+[![DOI](https://zenodo.org/badge/1190909687.svg)](https://doi.org/10.5281/zenodo.19452837)
 
 ---
 
 ## Status
 
-This repository documents the **pilot phase** of NormTrace.  
+This repository documents the pilot phase of NormTrace and corresponds to the archived public release **v2.0.0**.
+
 It should be read as a proof of concept, methodological infrastructure, and analytical foundation for future thematic and comparative expansion.
