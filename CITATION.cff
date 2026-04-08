@@ -12,9 +12,9 @@ doi: "10.5281/zenodo.19452837"
 url: "https://doi.org/10.5281/zenodo.19452837"
 abstract: >
   NormTrace is a structured methodological tool for assessing domestic normative alignment
-  with international legal instruments. The current pilot focuses on disability rights
-  in Mexico, using an initial contrast between the Convention on the Rights of Persons
-  with Disabilities (CRPD) and domestic legislation.
+  with international legal instruments. This release corresponds to the disability rights
+  pilot for Mexico and Switzerland, based on an initial contrast between the Convention on the Rights of
+  Persons with Disabilities (CRPD) and domestic legislation.
 repository-code: "https://github.com/adelasantosd/normtrace-disability-rights"
 license: "MIT"
 keywords:
