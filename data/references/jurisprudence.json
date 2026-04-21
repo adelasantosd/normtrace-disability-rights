@@ -1,0 +1,232 @@
+{
+  "_meta": {
+    "description": "Structured jurisprudential references for NormTrace conventionality analysis. Includes national case law (Mexico SCJN, Switzerland Federal Supreme Court) and international jurisprudence (IACtHR, ECtHR). All citations follow standard legal format. This file is the authoritative source for case citations in NormTrace outputs; references should not be fabricated or paraphrased outside this corpus.",
+    "schema_version": "1.0",
+    "note": "Key holdings are summaries for analytical use; they are not verbatim translations. Consult original documents for litigation purposes."
+  },
+  "jurisprudence": [
+    {
+      "id": "IACtHR_Almonacid_2006",
+      "reference_type": "jurisprudence_international",
+      "court_or_body": "Inter-American Court of Human Rights",
+      "jurisdiction": "INT",
+      "title": "Almonacid Arellano et al. v. Chile",
+      "year": 2006,
+      "document_symbol": "Series C No. 154",
+      "binding_force": "binding_domestic",
+      "url": "https://www.corteidh.or.cr/docs/casos/articulos/seriec_154_ing.pdf",
+      "key_holdings": [
+        "When a state has ratified an international treaty, its judges are also bound by that treaty; this obliges them to ensure that the treaty's provisions are not undermined by application of laws contrary to its object and purpose.",
+        "Judges must exercise a form of conventionality control between the domestic legal norms applied in specific cases and the American Convention on Human Rights.",
+        "The state is ultimately responsible for acts or omissions of all its branches regardless of their hierarchy in the domestic legal order."
+      ],
+      "relevant_articles": [],
+      "notes": "Foundational case establishing the conventionality control doctrine in the Inter-American system. Directly applicable in Mexico for the constitutional parameter analysis under Art. 1 CPEUM."
+    },
+    {
+      "id": "IACtHR_Dismissed_Congressional_2006",
+      "reference_type": "jurisprudence_international",
+      "court_or_body": "Inter-American Court of Human Rights",
+      "jurisdiction": "INT",
+      "title": "Dismissed Congressional Employees (Aguado Alfaro et al.) v. Peru",
+      "year": 2006,
+      "document_symbol": "Series C No. 158",
+      "binding_force": "binding_domestic",
+      "url": "https://www.corteidh.or.cr/docs/casos/articulos/seriec_158_esp.pdf",
+      "key_holdings": [
+        "All organs and authorities of the state — including lower courts — must exercise conventionality control ex officio, in conformity with their respective spheres of competence and procedural regulations.",
+        "Conventionality control must be carried out even when no party has requested it."
+      ],
+      "relevant_articles": [],
+      "notes": "Extended Almonacid to require ex officio conventionality control by all state organs, not only supreme courts."
+    },
+    {
+      "id": "IACtHR_Cabrera_Garcia_2010",
+      "reference_type": "jurisprudence_international",
+      "court_or_body": "Inter-American Court of Human Rights",
+      "jurisdiction": "INT",
+      "title": "Cabrera García and Montiel Flores v. Mexico",
+      "year": 2010,
+      "document_symbol": "Series C No. 220",
+      "binding_force": "binding_domestic",
+      "url": "https://www.corteidh.or.cr/docs/casos/articulos/seriec_220_esp.pdf",
+      "key_holdings": [
+        "All Mexican judges are bound to exercise conventionality control ex officio; they need not wait for a party to invoke the CADH.",
+        "The existence of an internal procedure for challenging constitutionality does not exempt judges from their obligation to exercise conventionality control.",
+        "The state must guarantee access to effective remedies for violations of rights under the CADH."
+      ],
+      "relevant_articles": [],
+      "notes": "Directly binding on Mexico. Applied in Mexican amparo proceedings to establish that all judges, including state court judges, must apply CADH standards."
+    },
+    {
+      "id": "SCJN_CdT_293_2011",
+      "reference_type": "jurisprudence_national",
+      "court_or_body": "Suprema Corte de Justicia de la Nación (SCJN)",
+      "jurisdiction": "MX",
+      "title": "Contradicción de Tesis 293/2011",
+      "year": 2013,
+      "document_symbol": "Contradicción de Tesis 293/2011",
+      "binding_force": "binding_domestic",
+      "url": "https://sjf.scjn.gob.mx/sjfsist/Documentos/Tesis/2006/2006224.pdf",
+      "key_holdings": [
+        "Human rights norms contained in international treaties ratified by Mexico have constitutional rank and form part of the 'constitutional parameter of human rights review'.",
+        "When there is a conflict between a constitutional provision and a human rights treaty provision, the provision most favorable to the person prevails (pro persona principle), except where the Constitution contains an explicit restriction.",
+        "Jurisprudence of the Inter-American Court of Human Rights is binding on Mexican courts when Mexico was a party to the case; it is an orientation criterion when Mexico was not a party.",
+        "The constitutional parameter integrates both the text of the Constitution and international human rights treaty provisions."
+      ],
+      "relevant_articles": [],
+      "notes": "Foundational SCJN ruling for Mexican conventionality analysis. Establishes the constitutional parameter and the scope of the pro persona principle. Applied in all subsequent human rights-based constitutional review."
+    },
+    {
+      "id": "SCJN_AR_410_2012",
+      "reference_type": "jurisprudence_national",
+      "court_or_body": "Suprema Corte de Justicia de la Nación (SCJN), Primera Sala",
+      "jurisdiction": "MX",
+      "title": "Amparo en Revisión 410/2012",
+      "year": 2012,
+      "document_symbol": "Amparo en Revisión 410/2012",
+      "binding_force": "binding_domestic",
+      "url": "",
+      "key_holdings": [
+        "Disability must be understood in accordance with the social model: it is not an inherent characteristic of the person but the interaction between functional impairments and attitudinal and environmental barriers.",
+        "Legal analysis of disability cases must incorporate the social model framework derived from the CRPD.",
+        "Reasonable accommodation is a non-discrimination obligation; its denial constitutes discrimination on the basis of disability."
+      ],
+      "relevant_articles": [5],
+      "notes": "First SCJN ruling explicitly applying the social model of disability as derived from the CRPD. Foundational for disability rights litigation in Mexico."
+    },
+    {
+      "id": "SCJN_ADR_1387_2012",
+      "reference_type": "jurisprudence_national",
+      "court_or_body": "Suprema Corte de Justicia de la Nación (SCJN), Primera Sala",
+      "jurisdiction": "MX",
+      "title": "Amparo Directo en Revisión 1387/2012",
+      "year": 2013,
+      "document_symbol": "Amparo Directo en Revisión 1387/2012",
+      "binding_force": "binding_domestic",
+      "url": "",
+      "key_holdings": [
+        "The guardianship regime applicable to persons with psychosocial disabilities must be reviewed in light of CRPD Art. 12.",
+        "The functional model of legal capacity assessment (evaluating whether a person can make a specific decision) is incompatible with CRPD Art. 12's equal legal capacity standard.",
+        "Courts must consider whether supported decision-making alternatives are available before restricting legal capacity."
+      ],
+      "relevant_articles": [12],
+      "notes": "Applied CRPD Art. 12 and GC No. 1 to challenge guardianship provisions in Mexican civil law. Key case for legal capacity reform arguments."
+    },
+    {
+      "id": "SCJN_AI_96_2014",
+      "reference_type": "jurisprudence_national",
+      "court_or_body": "Suprema Corte de Justicia de la Nación (SCJN), Pleno",
+      "jurisdiction": "MX",
+      "title": "Acción de Inconstitucionalidad 96/2014",
+      "year": 2015,
+      "document_symbol": "Acción de Inconstitucionalidad 96/2014",
+      "binding_force": "binding_domestic",
+      "url": "",
+      "key_holdings": [
+        "Equality and non-discrimination are foundational constitutional principles that must be interpreted in light of the international human rights parameter.",
+        "The principle of substantive equality requires that different treatment be applied to groups in different situations to achieve real equality of outcome.",
+        "Affirmative measures in favour of persons with disabilities are constitutionally permissible and may be required by the non-discrimination principle."
+      ],
+      "relevant_articles": [5],
+      "notes": "Applied substantive equality doctrine in the disability context. Supports affirmative measures analysis."
+    },
+    {
+      "id": "SCJN_Protocol_Disability_2014",
+      "reference_type": "soft_law",
+      "court_or_body": "Suprema Corte de Justicia de la Nación (SCJN)",
+      "jurisdiction": "MX",
+      "title": "Protocolo de actuación para quienes imparten justicia en casos que involucren derechos de personas con discapacidad",
+      "year": 2014,
+      "document_symbol": "SCJN Protocol on Disability Rights",
+      "binding_force": "persuasive",
+      "url": "https://www.scjn.gob.mx/derechos-humanos/sites/default/files/protocolos/archivos/2016-11/protocolo-discapacidad.pdf",
+      "key_holdings": [
+        "Judges must apply the social model of disability and the CRPD when adjudicating cases involving persons with disabilities.",
+        "Legal capacity must be assessed in accordance with CRPD Art. 12; guardianship must be a measure of last resort with strict requirements.",
+        "Procedural accommodations must be provided to ensure effective access to justice.",
+        "The Protocol operationalises the rights-based approach to disability in judicial practice."
+      ],
+      "relevant_articles": [5, 12, 13],
+      "notes": "Not formally binding but highly influential as official SCJN guidance. Used by lower courts in disability rights cases."
+    },
+    {
+      "id": "BGer_guardianship_generic",
+      "reference_type": "jurisprudence_national",
+      "court_or_body": "Bundesgericht / Tribunal fédéral / Tribunale federale (Federal Supreme Court of Switzerland)",
+      "jurisdiction": "CH",
+      "title": "Federal Supreme Court jurisprudence on guardianship and curatorship under the revised Civil Code (Art. 390–425 ZGB)",
+      "year": 2013,
+      "document_symbol": "Multiple BGer decisions post-2013 Civil Code reform",
+      "binding_force": "binding_domestic",
+      "url": "https://www.bger.ch",
+      "key_holdings": [
+        "The 2013 reform of the Civil Code replaced blanket interdiction with modular curatorship (Beistandschaft / curatelle) as a more proportionate measure.",
+        "Curatorship must be proportional to the individual's support needs; the least restrictive measure must be preferred.",
+        "Courts must assess whether less restrictive alternatives (including informal support) are adequate before ordering curatorship.",
+        "CRPD compatibility of the curatorship provisions remains debated; the Federal Supreme Court has not definitively resolved compatibility with Art. 12 GC No. 1 standards."
+      ],
+      "relevant_articles": [12],
+      "notes": "Swiss ZGB Art. 390 curatorship provisions have been the subject of ongoing CRPD compatibility debate. GC No. 1 (2014) post-dates the 2013 reform; full alignment with supported decision-making has not been achieved."
+    },
+    {
+      "id": "BGer_involuntary_placement",
+      "reference_type": "jurisprudence_national",
+      "court_or_body": "Federal Supreme Court of Switzerland",
+      "jurisdiction": "CH",
+      "title": "Federal Supreme Court jurisprudence on involuntary placement (fürsorgerische Unterbringung / placement à des fins d'assistance) under ZGB Art. 426",
+      "year": 2013,
+      "document_symbol": "Multiple BGer decisions on ZGB Art. 426",
+      "binding_force": "binding_domestic",
+      "url": "https://www.bger.ch",
+      "key_holdings": [
+        "Involuntary placement under ZGB Art. 426 requires: mental disorder, intellectual disability, or serious neglect; incapacity for self-care; no less restrictive measure adequate.",
+        "The placement must be reviewed at regular intervals; the person retains the right to request judicial review.",
+        "The ECHR Art. 5(1)(e) standard for detention of persons of unsound mind is directly applicable.",
+        "CRPD Art. 14(1)(b) compatibility has not been resolved; the Federal Supreme Court has applied ECHR rather than CRPD standards in most decisions."
+      ],
+      "relevant_articles": [14],
+      "notes": "The continued use of disability as a basis for involuntary placement under ZGB Art. 426 is the primary Swiss CRPD Art. 14 compatibility issue. CRPD Committee (CRPD/C/CHE/CO/1, 2022) flagged this."
+    },
+    {
+      "id": "CRPD_CO_MEX_2014",
+      "reference_type": "concluding_observations",
+      "court_or_body": "CRPD Committee",
+      "jurisdiction": "MX",
+      "title": "Concluding Observations on the initial report of Mexico",
+      "year": 2014,
+      "document_symbol": "CRPD/C/MEX/CO/1",
+      "binding_force": "persuasive",
+      "url": "https://undocs.org/CRPD/C/MEX/CO/1",
+      "key_holdings": [
+        "The Committee expressed concern about the guardianship and interdiction provisions in Mexican civil law as incompatible with Art. 12.",
+        "The Committee recommended full legal capacity reform replacing substituted with supported decision-making.",
+        "Concern was expressed about CONADIS's placement within the health ministry and its lack of cross-cutting coordination authority (Art. 33).",
+        "The segregated special education system was flagged as incompatible with Art. 24.",
+        "Concern about disability-based deprivation of liberty in psychiatric institutions (Art. 14)."
+      ],
+      "relevant_articles": [12, 14, 24, 33],
+      "notes": "Primary reference for Mexico-specific CRPD compliance assessment. Persuasive but not binding in domestic law."
+    },
+    {
+      "id": "CRPD_CO_CHE_2022",
+      "reference_type": "concluding_observations",
+      "court_or_body": "CRPD Committee",
+      "jurisdiction": "CH",
+      "title": "Concluding Observations on the initial report of Switzerland",
+      "year": 2022,
+      "document_symbol": "CRPD/C/CHE/CO/1",
+      "binding_force": "persuasive",
+      "url": "https://undocs.org/CRPD/C/CHE/CO/1",
+      "key_holdings": [
+        "The Committee expressed concern that Switzerland has not yet ratified the Optional Protocol, limiting individual communications.",
+        "Concern about curatorship provisions in the Civil Code as incompatible with Art. 12's supported decision-making standard.",
+        "Concern about involuntary psychiatric placement under ZGB Art. 426 as incompatible with Art. 14.",
+        "The dual education system (mainstreaming + special education) was flagged as incompatible with Art. 24.",
+        "Concern about cantonal fragmentation of disability services leading to unequal access."
+      ],
+      "relevant_articles": [12, 14, 19, 24, 33],
+      "notes": "Primary reference for Switzerland-specific CRPD compliance assessment. Note: Optional Protocol not ratified — no individual communication mechanism available for Switzerland."
+    }
+  ]
+}

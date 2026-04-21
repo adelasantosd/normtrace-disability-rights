@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "source": "CRPD Committee (Committee on the Rights of Persons with Disabilities)",
+    "binding_force": "authoritative_interpretation",
+    "note": "General Comments are not formally binding treaty law but constitute authoritative interpretation of CRPD obligations by the treaty body. They are primary analytical inputs in the NormTrace conventionality analysis stage.",
+    "ohchr_url": "https://www.ohchr.org/en/treaty-bodies/crpd/general-comments",
+    "schema_version": "1.0"
+  },
+  "general_comments": [
+    {
+      "id": "GC_1",
+      "number": 1,
+      "year": 2014,
+      "title": "Article 12: Equal recognition before the law",
+      "document_symbol": "CRPD/C/GC/1",
+      "article_addressed": 12,
+      "url": "https://undocs.org/CRPD/C/GC/1",
+      "key_holdings": [
+        "All persons with disabilities have full legal capacity; legal capacity cannot be restricted on the basis of disability, whether status-based or functional.",
+        "The functional approach (assessing mental capacity to make specific decisions) is incompatible with Art. 12; it discriminates on the basis of disability.",
+        "Supported decision-making must replace all forms of substituted decision-making (guardianship, tutela, curatela, interdiction, conservatorship).",
+        "Support arrangements must: respect the rights, will and preferences of the person; be free of conflict of interest and undue influence; be proportional and tailored to the person's circumstances; apply for the shortest time possible; be subject to regular review by an independent, impartial and accessible authority.",
+        "The obligation to replace substituted decision-making with supported decision-making is immediately applicable, not subject to progressive realisation.",
+        "Art. 12 is inherently linked to Art. 14 (liberty and security), Art. 19 (independent living), and Art. 29 (political participation)."
+      ],
+      "abrogates": ["Medical model of disability in legal capacity law", "Functional capacity assessments as basis for capacity restriction"],
+      "cross_references": [12, 14, 19, 29]
+    },
+    {
+      "id": "GC_2",
+      "number": 2,
+      "year": 2014,
+      "title": "Article 9: Accessibility",
+      "document_symbol": "CRPD/C/GC/2",
+      "article_addressed": 9,
+      "url": "https://undocs.org/CRPD/C/GC/2",
+      "key_holdings": [
+        "Accessibility is a precondition for the equal enjoyment of all CRPD rights; it must be treated as a systemic obligation, not a case-by-case accommodation.",
+        "Accessibility obligations are immediately applicable; they cannot be relegated to progressive realisation.",
+        "Accessibility applies to both public and private actors providing public services, goods and facilities.",
+        "The obligation covers: physical environment; transportation; information and communications (including ICT and emergency systems); facilities open to or provided for the public.",
+        "States must establish and enforce minimum accessibility standards with monitoring, complaint mechanisms, and effective sanctions.",
+        "Reasonable accommodation (individual) and accessibility (systemic) are distinct obligations; one does not substitute for the other.",
+        "Universal design is the primary methodology; accessibility retrofitting is a secondary and insufficient response.",
+        "Rural and remote areas are not exempt from accessibility requirements."
+      ],
+      "cross_references": [5, 9, 24, 27]
+    },
+    {
+      "id": "GC_3",
+      "number": 3,
+      "year": 2016,
+      "title": "Article 6: Women and girls with disabilities",
+      "document_symbol": "CRPD/C/GC/3",
+      "article_addressed": 6,
+      "url": "https://undocs.org/CRPD/C/GC/3",
+      "key_holdings": [
+        "Women and girls with disabilities experience multiple and intersectional discrimination; this is a distinct legal category requiring targeted measures.",
+        "Intersectionality analysis requires examining the simultaneous interaction of gender and disability, not additive analysis of separate grounds.",
+        "Gender-neutral disability law fails to recognise or address multiple discrimination; states must integrate gender and disability policy frameworks.",
+        "Violence against women with disabilities — including domestic violence, sexual violence, forced sterilisation, and institutional violence — requires specific legislative recognition and remedy.",
+        "States must ensure women with disabilities have access to gender-based violence support services in accessible formats.",
+        "Forced sterilisation of women with disabilities constitutes a violation of Arts. 6, 17 (integrity of person), and 23 (family).",
+        "Disabled women must have equal access to reproductive health services and decision-making.",
+        "Data collection must be disaggregated by both gender and disability to make multiple discrimination visible."
+      ],
+      "cross_references": [5, 6, 17, 23, 25]
+    },
+    {
+      "id": "GC_4",
+      "number": 4,
+      "year": 2016,
+      "title": "Article 24: Right to inclusive education",
+      "document_symbol": "CRPD/C/GC/4",
+      "article_addressed": 24,
+      "url": "https://undocs.org/CRPD/C/GC/4",
+      "key_holdings": [
+        "Inclusive education means transformation of the general education system so that it can accommodate all learners; it is not synonymous with integration (placement without systemic change).",
+        "Segregated special education as a primary model is incompatible with Art. 24; it constitutes structural discrimination.",
+        "The 'right to be welcomed in the regular school' is absolute: no child with a disability may be excluded from general education on the basis of disability.",
+        "Reasonable accommodation in education is a non-discrimination duty: denial of accommodation is discrimination.",
+        "Dual systems (inclusive and segregated) that direct children to special education on the basis of disability violate Art. 24.",
+        "Teachers must be trained in inclusive methodologies; lack of training does not justify exclusion.",
+        "Quality inclusive education requires: physical accessibility of schools; accessible information and communication; trained teachers; individualised support; involvement of parents and students in decision-making.",
+        "The obligation to move toward inclusive education is immediate (non-discrimination) and progressive (full realisation); no regression is permitted."
+      ],
+      "cross_references": [5, 9, 24]
+    },
+    {
+      "id": "GC_5",
+      "number": 5,
+      "year": 2017,
+      "title": "Article 19: Living independently and being included in the community",
+      "document_symbol": "CRPD/C/GC/5",
+      "article_addressed": 19,
+      "url": "https://undocs.org/CRPD/C/GC/5",
+      "key_holdings": [
+        "Deinstitutionalisation is an obligation, not a policy option; institutionalisation violates the right to community living regardless of institution size, quality, or voluntary admission.",
+        "The right to choose where and with whom to live is absolute; no person may be compelled to live in a particular living arrangement on the basis of disability.",
+        "States must invest in community-based support services as an alternative to institutional care; progressive resource reallocation from institutions to community support is required.",
+        "Personal assistance services are a specific right under Art. 19(b); they must be personalised, portable, and controlled by the person with disability.",
+        "The duty to deinstitutionalise encompasses: mental health institutions, long-term care facilities, group homes replicating institutional logic, and family-home care models that lack individual support.",
+        "Family-only care models do not satisfy Art. 19 when they are imposed by structural absence of state support.",
+        "The Convention does not permit 'better institutions' as a compliance strategy; community living is the standard.",
+        "Art. 19 generates cross-cutting obligations linking to accessibility (Art. 9), independent living support, and social protection (Art. 28)."
+      ],
+      "cross_references": [9, 12, 19, 26, 28]
+    },
+    {
+      "id": "GC_6",
+      "number": 6,
+      "year": 2018,
+      "title": "Article 5: Equality and non-discrimination",
+      "document_symbol": "CRPD/C/GC/6",
+      "article_addressed": 5,
+      "url": "https://undocs.org/CRPD/C/GC/6",
+      "key_holdings": [
+        "Four components of equality are required: formal (equal treatment), substantive (different treatment that corrects disadvantage), transformative (structural change), and participatory (equal voice in law and policy).",
+        "Denial of reasonable accommodation constitutes discrimination; it is an immediately applicable obligation, not subject to progressive realisation.",
+        "Multiple and intersectional discrimination are distinct legal concepts: multiple = two or more grounds in aggregate; intersectional = grounds that interact to produce a specific, combined form of discrimination.",
+        "Structural discrimination — laws, policies, and practices that perpetuate disadvantage — requires affirmative measures, not just prohibition of overt discrimination.",
+        "Disability cannot be an implicit or explicit criterion for different treatment unless it constitutes a proportionate, necessary, and legitimate differentiation designed to achieve substantive equality.",
+        "Reasonable accommodation must be assessed individually; a general policy cannot serve as a substitute.",
+        "Refusal to make accommodation without engaging in the interactive process constitutes discrimination.",
+        "The duty to provide reasonable accommodation extends to all domains covered by the CRPD, including all areas regulated by states parties."
+      ],
+      "cross_references": [3, 5, 6, 7, 8]
+    }
+  ]
+}

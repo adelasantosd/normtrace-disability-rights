@@ -1,0 +1,262 @@
+{
+  "_meta": {
+    "description": "Structured taxonomy of normative gap types used in NormTrace conventionality analysis (Stage 3). Each gap type is defined, operationalised, and assigned diagnostic indicators and severity weights. This taxonomy is the analytical backbone for gap classification and comparative coding.",
+    "schema_version": "1.0",
+    "source": "NormTrace analytical protocol, Stage 3; informed by CRPD Committee concluding observations methodology (CRPD/C/MEX/CO/1, 2014; CRPD/C/CHE/CO/1, 2022)."
+  },
+  "severity_weights": {
+    "description": "Numeric weights assigned to severity levels for aggregate scoring. Used in normtrace.scoring.score_gap_severity().",
+    "critical": 4,
+    "high": 3,
+    "medium": 2,
+    "low": 1,
+    "uncertain": 0
+  },
+  "gap_types": [
+    {
+      "id": "total_absence",
+      "label": "Total Absence",
+      "definition": "The right, obligation, institutional mechanism, or procedural guarantee required by the international standard is entirely absent from the domestic instrument. No provision, direct or indirect, addresses the subject matter.",
+      "diagnostic_indicators": {
+        "positive": [
+          "No article or section addresses the relevant right or obligation",
+          "Keyword and concept search returns no relevant provisions",
+          "Silence is confirmed across the full text, not only a section"
+        ],
+        "negative": [
+          "Incidental mention in preamble or definitions without operative effect",
+          "Provisions in related but separate instruments not under analysis"
+        ]
+      },
+      "default_severity": "high",
+      "severity_modifiers": [
+        {"condition": "Gap concerns an immediately applicable obligation (e.g., non-discrimination, Art. 14 liberty)", "adjustment": "upgrade_to_critical"},
+        {"condition": "Gap concerns a progressively realisable right with no baseline provision", "adjustment": "high"},
+        {"condition": "Gap in a sector where alternative provisions exist in other instruments", "adjustment": "downgrade_to_medium"}
+      ],
+      "coding_value": "total_absence",
+      "notes": "Total absence of Art. 12 supported decision-making provisions in civil codes governing legal capacity is the paradigmatic example in the CRPD context."
+    },
+    {
+      "id": "weak_recognition",
+      "label": "Weak Recognition",
+      "definition": "The right or obligation is mentioned in the domestic instrument but lacks the substantive content, institutional anchor, enforcement mechanism, or implementation pathway required for meaningful realisation. Recognition is nominal rather than operative.",
+      "diagnostic_indicators": {
+        "positive": [
+          "Rights language present in preamble, objectives, or definitions without operative provisions",
+          "General principle stated without corresponding substantive article",
+          "Obligation framed as 'promotion' or 'encouragement' rather than duty",
+          "No sanction, remedy, or monitoring mechanism attached to the right"
+        ],
+        "negative": [
+          "Rights language accompanied by detailed implementation provisions",
+          "Specific institutional actor designated with resources and mandate"
+        ]
+      },
+      "default_severity": "medium",
+      "severity_modifiers": [
+        {"condition": "Weak recognition of an immediately applicable right (non-discrimination, legal capacity)", "adjustment": "upgrade_to_high"},
+        {"condition": "Weak recognition accompanied by at least one implementing regulation or programme", "adjustment": "downgrade_to_low"}
+      ],
+      "coding_value": "weak_recognition",
+      "notes": "Frequently produced by copy-paste transposition of treaty language into domestic law without substantive implementation architecture."
+    },
+    {
+      "id": "incompatibility",
+      "label": "Incompatibility",
+      "definition": "A domestic provision actively contradicts or is structurally irreconcilable with the international standard. The domestic rule is not merely insufficient — it operates in opposition to the treaty obligation.",
+      "diagnostic_indicators": {
+        "positive": [
+          "Domestic provision permits or requires what the international standard prohibits",
+          "Domestic provision denies what the international standard guarantees",
+          "Domestic provision relies on a model explicitly rejected by the treaty body (e.g., substituted decision-making, segregated education, disability-based deprivation of liberty)"
+        ],
+        "negative": [
+          "Domestic provision falls short of the standard but does not prohibit compliance",
+          "Domestic provision is silent rather than contrary"
+        ]
+      },
+      "default_severity": "critical",
+      "severity_modifiers": [
+        {"condition": "Incompatibility is in a civil or criminal code provision with broad application", "adjustment": "critical"},
+        {"condition": "Incompatibility is limited to a specific regulatory instrument with narrow scope", "adjustment": "downgrade_to_high"}
+      ],
+      "coding_value": "incompatibility",
+      "notes": "The paradigmatic CRPD incompatibilities are: guardianship/civil incapacitation (Art. 12), institutionalisation as primary model (Art. 14, Art. 19), and segregated special education as default (Art. 24)."
+    },
+    {
+      "id": "regression",
+      "label": "Regression",
+      "definition": "A previous domestic standard afforded greater protection than the current instrument. The current instrument reduces the level of protection, whether explicitly by repeal or implicitly by restructuring.",
+      "diagnostic_indicators": {
+        "positive": [
+          "Prior instrument contained provisions absent from the current one",
+          "Reform reduced enforcement mechanisms or monitoring bodies",
+          "Legislative history shows conscious reduction of rights guarantees",
+          "Budgetary cuts have eliminated rights-implementing programmes"
+        ],
+        "negative": [
+          "Prior instrument was also non-compliant with CRPD standard",
+          "Apparent reduction reflects consolidation without substantive change"
+        ]
+      },
+      "default_severity": "high",
+      "severity_modifiers": [
+        {"condition": "Regression from a standard that was CRPD-compliant or closer to compliance", "adjustment": "critical"},
+        {"condition": "Regression from a standard that was also non-compliant", "adjustment": "medium"}
+      ],
+      "coding_value": "regression",
+      "notes": "Non-retrogression is a component of the minimum core obligations doctrine (CESCR GC No. 3, 1990; applied by CRPD Committee in practice)."
+    },
+    {
+      "id": "structural_discrimination",
+      "label": "Structural Discrimination",
+      "definition": "A facially neutral provision, institutional design, or legislative pattern that produces or perpetuates discriminatory effects for persons with disabilities or a subgroup of them. The discrimination is embedded in the structure of law or policy, not necessarily in explicit text.",
+      "diagnostic_indicators": {
+        "positive": [
+          "Neutral-language provision applied uniformly but produces disproportionate adverse effects on persons with disabilities",
+          "Institutional design excludes persons with disabilities from participation or access without explicit prohibition",
+          "Law requires conditions that persons with disabilities cannot practically meet",
+          "Gender-neutral disability law ignoring multiple discrimination (Art. 6 context)",
+          "Family-only care assumptions without state support infrastructure (Art. 19 context)"
+        ],
+        "negative": [
+          "Disproportionate effect is incidental and not structurally produced",
+          "Differentiated provision is a legitimate and proportionate affirmative measure"
+        ]
+      },
+      "default_severity": "high",
+      "severity_modifiers": [
+        {"condition": "Structural discrimination intersects with multiple axes (gender + disability + indigenous identity)", "adjustment": "upgrade_to_critical"},
+        {"condition": "Structural discrimination is limited to a specific regulatory domain", "adjustment": "medium"}
+      ],
+      "coding_value": "structural_discrimination",
+      "notes": "Indirect discrimination and structural discrimination overlap but are analytically distinct: indirect discrimination focuses on disparate impact of specific provisions; structural discrimination addresses patterns embedded across a body of law."
+    },
+    {
+      "id": "implementation_gap",
+      "label": "Implementation Gap",
+      "definition": "The right is formally recognised in the domestic instrument but the institutional design, budgetary pathway, enforcement mechanism, monitoring structure, or coordination architecture is insufficient to produce realisation of the right in practice.",
+      "diagnostic_indicators": {
+        "positive": [
+          "Right stated but no implementing body designated",
+          "Right stated but no budget line or fiscal mechanism",
+          "Right stated but no sanction for violation",
+          "Right stated but no monitoring or reporting obligation",
+          "Multiple bodies share responsibility with no coordination mechanism",
+          "Implementation delegated to sub-national level without framework norms or resources",
+          "Obligation conditioned on 'budgetary availability' without minimum guarantee"
+        ],
+        "negative": [
+          "Implementing body has mandate, resources, and independence",
+          "Sanction and remedy mechanisms are operable",
+          "Monitoring is independent and participatory"
+        ]
+      },
+      "default_severity": "medium",
+      "severity_modifiers": [
+        {"condition": "Implementation gap affects an immediately applicable right (non-discrimination, legal capacity, liberty)", "adjustment": "upgrade_to_high"},
+        {"condition": "Implementation gap is at sub-national level with functional national framework", "adjustment": "medium"},
+        {"condition": "No budget, no institution, and no enforcement for a justiciable right", "adjustment": "upgrade_to_high"}
+      ],
+      "coding_value": "implementation_gap",
+      "notes": "Implementation gaps are the most common gap type in CRPD review. They are particularly prevalent in federal systems where sub-national actors have implementation discretion without adequate framework norms."
+    },
+    {
+      "id": "normative_silence",
+      "label": "Normative Silence",
+      "definition": "An absence that is analytically meaningful because the law regulates a domain or subject matter without addressing a dimension that international standards require to be addressed. Silence is not neutral: it indicates a choice, deliberate or not, not to regulate.",
+      "diagnostic_indicators": {
+        "positive": [
+          "Law regulates disability but does not address women with disabilities (Art. 6)",
+          "Law regulates education but does not address inclusive education or reasonable accommodation",
+          "Law regulates employment but does not mention reasonable accommodation",
+          "Law regulates legal proceedings but does not address procedural accommodation",
+          "Law regulates civil registration but does not address accessible registration processes"
+        ],
+        "negative": [
+          "Silence in one instrument covered by cross-reference to another instrument",
+          "Silence is on a point not within the scope of the instrument being analysed"
+        ]
+      },
+      "default_severity": "medium",
+      "severity_modifiers": [
+        {"condition": "Silence concerns multiple discrimination or an intersectional subgroup", "adjustment": "upgrade_to_high"},
+        {"condition": "Silence is on a cross-cutting obligation (accessibility, non-discrimination)", "adjustment": "upgrade_to_high"},
+        {"condition": "Silence is on an ancillary procedural matter", "adjustment": "low"}
+      ],
+      "coding_value": "normative_silence",
+      "notes": "Normative silence is methodologically distinct from total absence: total absence means the domain is unregulated; normative silence means the domain is regulated but a required dimension is missing."
+    },
+    {
+      "id": "declaratory_only",
+      "label": "Declaratory Only",
+      "definition": "Rights language is present in the domestic instrument, but the instrument does not generate justiciable or enforceable obligations. The provision is programmatic or aspirational in character: it expresses a policy goal but does not create a legal duty with corresponding remedy.",
+      "diagnostic_indicators": {
+        "positive": [
+          "Provision states 'the State shall promote' rather than 'guarantee' or 'ensure'",
+          "Provision lacks corresponding sanction, remedy, or enforcement mechanism",
+          "Provision is located in a policy document or action plan rather than a statute or regulation",
+          "Rights language is in preamble or objectives only, without operative articles",
+          "Judicial enforcement of the provision has been denied by courts for lack of justiciability"
+        ],
+        "negative": [
+          "Provision is enforceable through amparo, constitutional review, or direct action",
+          "Provision has been successfully invoked in judicial proceedings"
+        ]
+      },
+      "default_severity": "medium",
+      "severity_modifiers": [
+        {"condition": "Declaratory framing of an immediately applicable right (non-discrimination)", "adjustment": "upgrade_to_high"},
+        {"condition": "Declaratory provision is accompanied by an action plan with timelines and indicators", "adjustment": "downgrade_to_low"}
+      ],
+      "coding_value": "declaratory_only",
+      "notes": "The distinction between justiciable obligations and programmatic statements is particularly important in the Mexican context, where constitutional rights provisions are directly enforceable through amparo proceedings."
+    }
+  ],
+  "priority_matrix": {
+    "description": "Four-factor matrix for prioritising gaps for litigation, advocacy, or legislative reform. Each factor is scored 1–3 and the product determines overall priority. Used in normtrace.scoring.compute_priority_score().",
+    "factors": [
+      {
+        "id": "urgency",
+        "label": "Urgency",
+        "description": "How immediately does the gap cause or risk human rights harm?",
+        "scores": {
+          "3": "Ongoing, active harm to identifiable rights-holders",
+          "2": "Structural risk of harm; harm likely but not immediate",
+          "1": "Long-term structural gap; harm mediated by other factors"
+        }
+      },
+      {
+        "id": "remediability",
+        "label": "Remediability",
+        "description": "How feasible is legislative, judicial, or administrative remedy?",
+        "scores": {
+          "3": "Single statutory amendment or judicial declaration would remedy",
+          "2": "Structural reform required but technically feasible",
+          "1": "Requires comprehensive multi-sector reform; high political cost"
+        }
+      },
+      {
+        "id": "litigation_potential",
+        "label": "Litigation Potential",
+        "description": "How suitable is the gap for strategic litigation?",
+        "scores": {
+          "3": "Clear constitutional or conventional hook; strong standing; precedent possible",
+          "2": "Arguable claim; standing issues; outcome uncertain",
+          "1": "Political question or non-justiciable; legislative advocacy preferred"
+        }
+      },
+      {
+        "id": "systemic_impact",
+        "label": "Systemic Impact",
+        "description": "How many persons and rights are affected? Does remediation generate systemic change?",
+        "scores": {
+          "3": "Affects all or most persons with disabilities; cross-cutting impact",
+          "2": "Affects a significant subgroup; spillover effects possible",
+          "1": "Affects a specific subgroup in a limited context"
+        }
+      }
+    ]
+  }
+}

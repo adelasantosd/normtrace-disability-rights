@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "normtrace"
+version = "2.1.0"
+description = "Multilevel normative analysis tool for assessing domestic legal alignment with international human rights instruments"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Adela B. Santos-Domínguez", email = "dsvelasartesanales@gmail.com" }
+]
+keywords = [
+  "legal analysis",
+  "normative alignment",
+  "conventionality control",
+  "disability rights",
+  "CRPD",
+  "human rights",
+  "international law",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Legal Industry",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Text Processing :: Linguistic",
+]
+requires-python = ">=3.10"
+dependencies = []  # stdlib only; no runtime dependencies
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "pytest-cov"]
+
+[project.urls]
+Homepage = "https://github.com/adelasantosd/normtrace-disability-rights"
+Repository = "https://github.com/adelasantosd/normtrace-disability-rights"
+Documentation = "https://github.com/adelasantosd/normtrace-disability-rights/blob/main/README.md"
+"Bug Tracker" = "https://github.com/adelasantosd/normtrace-disability-rights/issues"
+DOI = "https://doi.org/10.5281/zenodo.19452837"
+
+[tool.setuptools.packages.find]
+include = ["normtrace*"]
+
+[tool.setuptools.package-data]
+normtrace = ["../data/**/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+cache_dir = "/tmp/.pytest_cache_normtrace"
+
+[tool.coverage.run]
+source = ["normtrace"]

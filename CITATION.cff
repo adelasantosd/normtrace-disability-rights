@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "NormTrace"
+message: "If you use this repository, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Santos-Domínguez"
+    given-names: "Adela B."
+    orcid: "https://orcid.org/0000-0002-8691-0544"
+version: "v2.1.0"
+date-released: "2026-04-19"
+doi: "10.5281/zenodo.19452837"
+url: "https://doi.org/10.5281/zenodo.19452837"
+abstract: >
+  NormTrace is a scientific software package for multilevel normative analysis of domestic
+  legal alignment with international human rights instruments. The analytical framework —
+  gap taxonomy, CRPD standards, analytical criteria, and reference corpus — is encoded as
+  structured Python objects and JSON data files, independently of any language model.
+  The package includes: (1) a normtrace/ Python module with CRPD articles as typed objects,
+  gap classification logic as pure functions, and a structured reference corpus of jurisprudence
+  and doctrine; (2) data/crpd/ with CRPD articles and General Comments as machine-readable
+  JSON; (3) data/frameworks/ with gap taxonomy, gender perspective criteria, and intersectionality
+  axes as codeable analytical structures; (4) data/references/ with structured bibliographic
+  references to jurisprudence (SCJN, IACtHR, Federal Supreme Court CH, CRPD Committee) and
+  doctrine. A language model may serve as an extraction component that operates on these
+  pre-existing structures, but the analytical architecture is independent and fully testable.
+  This release corresponds to the disability rights pilot for Mexico and Switzerland.
+repository-code: "https://github.com/adelasantosd/normtrace-disability-rights"
+license: "MIT"
+keywords:
+  - legal analysis
+  - normative alignment
+  - conventionality control
+  - disability rights
+  - Mexico
+  - international law
+  - human rights

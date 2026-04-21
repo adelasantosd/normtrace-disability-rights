@@ -1,0 +1,208 @@
+{
+  "_meta": {
+    "description": "Ten diagnostic criteria for assessing the gender perspective in a domestic legal instrument. These criteria operationalise the gender analysis component of NormTrace Stage 2 (Exclusion and Omission Analysis). Each criterion is a structured question with positive and negative indicators, applicable CRPD articles, and a rationale traceable to treaty sources.",
+    "schema_version": "1.0",
+    "source": "NormTrace exclusion-analysis framework; CRPD Art. 6; CRPD Committee GC No. 3 (2016), CRPD/C/GC/3; CEDAW Committee, General Recommendation No. 18 (1991) and No. 35 (2017)."
+  },
+  "criteria": [
+    {
+      "id": "gender_01",
+      "stage": "stage_2_exclusion",
+      "dimension": "gender_perspective",
+      "question": "Does the domestic instrument recognise women with disabilities as a specific legal subject with rights distinct from the general disability category?",
+      "positive_indicators": [
+        "Specific article or section on women with disabilities",
+        "Recognition of multiple discrimination (gender + disability)",
+        "Targeted measures for women with disabilities",
+        "Reference to CRPD Art. 6 or CEDAW"
+      ],
+      "negative_indicators": [
+        "Gender-neutral language throughout with no women-specific provisions",
+        "Disability law structured as gender-blind with no reference to Art. 6",
+        "Women subsumed under general disability category without differentiation"
+      ],
+      "applicable_articles": [6],
+      "weight": 1.5,
+      "rationale": "CRPD Art. 6 and GC No. 3 (2016) establish that women with disabilities experience multiple and intersectional discrimination requiring specific recognition. Gender-neutral disability law fails this standard."
+    },
+    {
+      "id": "gender_02",
+      "stage": "stage_2_exclusion",
+      "dimension": "gender_perspective",
+      "question": "Does the domestic instrument recognise and address intersectionality, i.e., the simultaneous interaction of gender and disability as producing a specific form of discrimination distinct from either alone?",
+      "positive_indicators": [
+        "Explicit recognition of intersectional or multiple discrimination",
+        "Provisions addressing cumulative barriers faced by women with disabilities",
+        "Data collection requirements disaggregated by both gender and disability"
+      ],
+      "negative_indicators": [
+        "Additive approach only (lists disability + gender as separate grounds)",
+        "No reference to compounding or intersecting disadvantage",
+        "No disaggregated data requirement"
+      ],
+      "applicable_articles": [5, 6],
+      "weight": 1.5,
+      "rationale": "GC No. 3 (2016), para. 4: intersectionality is not merely the sum of discrimination grounds but the interaction that produces a distinct experience. Additive analysis is insufficient."
+    },
+    {
+      "id": "gender_03",
+      "stage": "stage_2_exclusion",
+      "dimension": "gender_perspective",
+      "question": "Does the domestic instrument use inclusive language that reflects both women and men with disabilities, or does it default to masculine grammatical forms that render women invisible?",
+      "positive_indicators": [
+        "Inclusive or non-binary language throughout",
+        "Explicit disaggregation by gender in definitions and provisions",
+        "Use of gender-neutral or gender-inclusive drafting conventions"
+      ],
+      "negative_indicators": [
+        "Default masculine grammatical forms throughout (e.g., 'el discapacitado')",
+        "No acknowledgment of gender diversity among persons with disabilities",
+        "Preamble inclusive but operative articles gender-neutral to the point of invisibility"
+      ],
+      "applicable_articles": [6],
+      "weight": 0.75,
+      "rationale": "Language is not merely stylistic: grammatical invisibility of women reinforces structural exclusion. GC No. 3 addresses language as a form of representation."
+    },
+    {
+      "id": "gender_04",
+      "stage": "stage_2_exclusion",
+      "dimension": "gender_perspective",
+      "question": "Does the domestic instrument address violence against women with disabilities, including domestic violence, sexual violence, and institutional violence?",
+      "positive_indicators": [
+        "Specific provision on violence against women with disabilities",
+        "Cross-reference to gender-based violence legislation ensuring accessibility for women with disabilities",
+        "Requirement that GBV support services be accessible",
+        "Recognition of increased vulnerability to violence in institutional settings"
+      ],
+      "negative_indicators": [
+        "No mention of violence against women with disabilities",
+        "General violence provision not extended to disability context",
+        "Institutional violence not addressed",
+        "GBV services not required to be accessible"
+      ],
+      "applicable_articles": [6, 16, 17],
+      "weight": 2.0,
+      "rationale": "GC No. 3 (2016), para. 31–35: violence against women with disabilities is pervasive and takes specific forms (including forced sterilisation and institutional violence) requiring targeted legislative response."
+    },
+    {
+      "id": "gender_05",
+      "stage": "stage_2_exclusion",
+      "dimension": "gender_perspective",
+      "question": "Does the domestic instrument address reproductive rights and bodily autonomy for women with disabilities, including prohibition of forced sterilisation?",
+      "positive_indicators": [
+        "Explicit prohibition of forced sterilisation",
+        "Right to decide freely on number and spacing of children applies to women with disabilities",
+        "Accessible reproductive health services mandated",
+        "Supported decision-making applies to reproductive decisions"
+      ],
+      "negative_indicators": [
+        "No provision on forced sterilisation",
+        "Reproductive decisions subsumed under guardianship/substituted decision-making",
+        "No accessible reproductive health requirement",
+        "Reproductive rights addressed only for men or gender-neutral"
+      ],
+      "applicable_articles": [6, 17, 23, 25],
+      "weight": 2.0,
+      "rationale": "GC No. 3 (2016), para. 38–43; forced sterilisation constitutes a violation of Arts. 6, 17 and 23. CRPD Committee has consistently flagged this in concluding observations."
+    },
+    {
+      "id": "gender_06",
+      "stage": "stage_2_exclusion",
+      "dimension": "gender_perspective",
+      "question": "Does the domestic instrument address care obligations and their gendered distribution, i.e., the disproportionate burden of care placed on women (mothers, daughters, sisters) as informal caregivers?",
+      "positive_indicators": [
+        "Recognition of care work as a structural issue, not a family matter",
+        "Support services for persons with disabilities that reduce informal care burden",
+        "Personal assistance provision that substitutes or supplements family care",
+        "Recognition that informal care burden disproportionately falls on women"
+      ],
+      "negative_indicators": [
+        "Family-only care model assumed without state support infrastructure",
+        "No personal assistance provision",
+        "Care obligations placed exclusively on 'families' without gender analysis",
+        "No recognition of care burden as a structural gender issue"
+      ],
+      "applicable_articles": [6, 19, 28],
+      "weight": 1.5,
+      "rationale": "Structural placing of care obligations on families, in practice women, reproduces gender inequality and violates the state's obligation under Art. 6 and Art. 19 to provide community support."
+    },
+    {
+      "id": "gender_07",
+      "stage": "stage_2_exclusion",
+      "dimension": "gender_perspective",
+      "question": "Does the domestic instrument ensure participation of women with disabilities in decision-making, including in the governance of disability policy and monitoring bodies?",
+      "positive_indicators": [
+        "Women with disabilities included in participation requirements",
+        "Gender parity or gender-awareness requirements in disability advisory bodies",
+        "Representative organisations of women with disabilities mentioned",
+        "Participatory monitoring with gender disaggregation"
+      ],
+      "negative_indicators": [
+        "Participation of 'persons with disabilities' without gender-aware composition requirements",
+        "No requirement for representation of women with disabilities in consultative processes",
+        "Monitoring bodies not required to be gender-balanced or gender-aware"
+      ],
+      "applicable_articles": [4, 6, 33],
+      "weight": 1.25,
+      "rationale": "Art. 4(3) consultation obligations apply to women with disabilities as a specific subgroup; GC No. 3 establishes that generic participation requirements are insufficient."
+    },
+    {
+      "id": "gender_08",
+      "stage": "stage_2_exclusion",
+      "dimension": "gender_perspective",
+      "question": "Does the domestic instrument require data collection and disaggregation by both gender and disability, enabling visibility of women with disabilities in policy-relevant statistics?",
+      "positive_indicators": [
+        "Explicit data disaggregation requirement by disability AND gender",
+        "National statistics office mandated to collect disability + gender data",
+        "Monitoring indicators include gender-disaggregated data on persons with disabilities"
+      ],
+      "negative_indicators": [
+        "Data disaggregated by disability only",
+        "No disaggregation requirement at all",
+        "Gender-disaggregated data available only at aggregate level, not disability-specific"
+      ],
+      "applicable_articles": [6, 31, 33],
+      "weight": 1.0,
+      "rationale": "Art. 31 requires statistics and data collection enabling monitoring of CRPD implementation; invisibility of women with disabilities in data is a structural barrier to policy design."
+    },
+    {
+      "id": "gender_09",
+      "stage": "stage_2_exclusion",
+      "dimension": "gender_perspective",
+      "question": "Does the domestic instrument adopt a substantive equality approach for women with disabilities, going beyond formal equality to address the structural disadvantages they face?",
+      "positive_indicators": [
+        "Affirmative measures for women with disabilities",
+        "Recognition that equal treatment is insufficient to address compounded disadvantage",
+        "Programme-level differentiation for women with disabilities in employment, education, health"
+      ],
+      "negative_indicators": [
+        "Formal equality only: same treatment regardless of gendered disability disadvantage",
+        "No affirmative measures targeting women with disabilities",
+        "Equality framing does not address structural disadvantage"
+      ],
+      "applicable_articles": [5, 6],
+      "weight": 1.5,
+      "rationale": "GC No. 6 (2018) establishes that substantive and transformative equality require differentiated treatment; formal equality perpetuates disadvantage for groups facing multiple discrimination."
+    },
+    {
+      "id": "gender_10",
+      "stage": "stage_2_exclusion",
+      "dimension": "gender_perspective",
+      "question": "Does the domestic instrument integrate the gender equality and disability rights frameworks, or are they developed in parallel silos without coordination or cross-reference?",
+      "positive_indicators": [
+        "Disability law explicitly cross-references gender equality legislation",
+        "Gender equality legislation explicitly addresses disability",
+        "Coordination mechanism between disability and gender equality institutions",
+        "Common action plans or indicators spanning both frameworks"
+      ],
+      "negative_indicators": [
+        "Disability legislation and gender equality legislation developed in parallel with no cross-reference",
+        "No institutional coordination between disability focal point and gender equality body",
+        "Gender equality action plans do not address disability; disability action plans do not address gender"
+      ],
+      "applicable_articles": [6, 33],
+      "weight": 1.25,
+      "rationale": "Legislative parallelism without integration reproduces multiple discrimination at the institutional level. GC No. 3 explicitly requires states to integrate disability and gender policy frameworks."
+    }
+  ]
+}

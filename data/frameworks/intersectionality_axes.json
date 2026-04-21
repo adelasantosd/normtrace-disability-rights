@@ -1,0 +1,138 @@
+{
+  "_meta": {
+    "description": "Eight intersectionality axes used in NormTrace Stage 2 exclusion analysis. For each axis, the file specifies: the axis label, a description, the specific subgroup of persons with disabilities affected, the structural mechanisms through which exclusion operates, and the CRPD provisions most relevant to each axis.",
+    "schema_version": "1.0",
+    "source": "NormTrace exclusion-analysis framework; Crenshaw, K. (1989), 'Demarginalising the intersection of race and sex', University of Chicago Legal Forum, 139–167; CRPD Committee GC No. 3 (2016), GC No. 6 (2018); Special Rapporteur on the Rights of Persons with Disabilities, A/HRC/43/41 (2020)."
+  },
+  "methodology_note": "Intersectionality analysis in NormTrace follows the 'most disadvantaged person' method: the analyst identifies the person in the regulated group who faces the most compounded barriers given the combination of axes present, traces the access routes available to that person under the domestic instrument, and identifies the points at which those routes are interrupted or foreclosed. This is not an additive exercise (disability + gender = sum of barriers) but a structural analysis of how axes interact to produce specific forms of exclusion.",
+  "axes": [
+    {
+      "id": "gender",
+      "label": "Gender",
+      "subgroup": "Women and girls with disabilities; non-binary and gender-non-conforming persons with disabilities",
+      "exclusion_mechanisms": [
+        "Multiple discrimination (gender + disability) not recognised as a distinct legal category",
+        "Disability law structured as gender-neutral, rendering women invisible",
+        "Informal care burden placed structurally on women as caregivers",
+        "Gender-based violence provisions inaccessible or unapplied to women with disabilities",
+        "Reproductive rights subordinated to guardianship or third-party authorisation"
+      ],
+      "applicable_articles": [5, 6, 16, 17, 23, 25],
+      "general_comments": ["GC_3", "GC_6"],
+      "diagnostic_question": "Does the domestic instrument recognise and address the specific situation of women and girls with disabilities as a rights-holder group subject to multiple discrimination?",
+      "weight": 1.5
+    },
+    {
+      "id": "ethnicity_indigeneity",
+      "label": "Ethnicity and Indigeneity",
+      "subgroup": "Indigenous peoples with disabilities; Afro-descendant persons with disabilities; persons from ethnic minorities with disabilities",
+      "exclusion_mechanisms": [
+        "Disability services designed for majority culture without cultural adaptation",
+        "Communication barriers: services not available in indigenous languages",
+        "Tension between disability rights framework and indigenous legal orders (legal pluralism)",
+        "Disability assessment tools calibrated for dominant cultural norms",
+        "Inaccessibility of justice mechanisms in indigenous communities",
+        "Absence of culturally appropriate supported decision-making models"
+      ],
+      "applicable_articles": [9, 12, 13, 24, 30],
+      "general_comments": [],
+      "diagnostic_question": "Does the domestic instrument address cultural and linguistic barriers faced by indigenous and ethnic minority persons with disabilities, and does it engage with legal pluralism?",
+      "weight": 1.5
+    },
+    {
+      "id": "age",
+      "label": "Age",
+      "subgroup": "Children with disabilities; older persons with disabilities",
+      "exclusion_mechanisms": [
+        "Disability law structured for working-age adults; children and older persons absent",
+        "Children: special education as default (Art. 24); lack of voice in proceedings (Art. 7)",
+        "Older persons: disability framed as ageing rather than rights-based; access to support conditioned on incapacity rather than choice",
+        "Age-based capacity restrictions overlapping with disability-based capacity restrictions"
+      ],
+      "applicable_articles": [7, 12, 19, 24],
+      "general_comments": ["GC_4"],
+      "diagnostic_question": "Does the domestic instrument address the specific situation of children and older persons with disabilities as age-differentiated rights-holder groups?",
+      "weight": 1.25
+    },
+    {
+      "id": "class_poverty",
+      "label": "Class and Poverty",
+      "subgroup": "Persons with disabilities living in poverty or economic precarity",
+      "exclusion_mechanisms": [
+        "Disability support services user-funded (private market model) rather than universally accessible",
+        "Reasonable accommodation denied due to cost without proportionality assessment",
+        "Legal aid and justice access de facto conditioned on economic capacity",
+        "Disability welfare benefits conditioned on asset or income tests that trap persons in poverty",
+        "Formal disability recognition processes requiring fees, documentation, or legal representation"
+      ],
+      "applicable_articles": [9, 12, 13, 27, 28],
+      "general_comments": [],
+      "diagnostic_question": "Does the domestic instrument ensure that disability rights are accessible regardless of socioeconomic status, and does it address the additional economic costs of disability?",
+      "weight": 1.25
+    },
+    {
+      "id": "rurality",
+      "label": "Rurality",
+      "subgroup": "Persons with disabilities in rural, remote, or geographically isolated areas",
+      "exclusion_mechanisms": [
+        "Disability services concentrated in urban centres; rural persons with disabilities effectively excluded",
+        "Transport inaccessibility compounds exclusion from services, employment, education, and justice",
+        "Digital accessibility gap: ICT services not available or affordable in rural areas",
+        "Community living support (Art. 19) absent in rural areas due to infrastructure gaps",
+        "Monitoring and complaint mechanisms require physical access to urban centres"
+      ],
+      "applicable_articles": [9, 19, 24, 27],
+      "general_comments": ["GC_2"],
+      "diagnostic_question": "Does the domestic instrument ensure that disability rights and services are accessible in rural and remote areas on equal terms with urban areas?",
+      "weight": 1.25
+    },
+    {
+      "id": "migration_status",
+      "label": "Migration Status",
+      "subgroup": "Migrants, refugees, asylum seekers, and stateless persons with disabilities",
+      "exclusion_mechanisms": [
+        "Disability rights framed as citizenship rights, excluding non-citizens",
+        "Asylum and migration proceedings not accessible for persons with disabilities",
+        "Social protection conditioned on legal residence status",
+        "Disability assessment and support conditional on documentation requirements inaccessible to migrants",
+        "Immigration detention of persons with disabilities without reasonable accommodation"
+      ],
+      "applicable_articles": [5, 9, 13, 28],
+      "general_comments": ["GC_6"],
+      "diagnostic_question": "Does the domestic instrument extend disability rights to migrants, refugees, and stateless persons, or does it condition rights on citizenship or legal residence?",
+      "weight": 1.0
+    },
+    {
+      "id": "sexual_orientation_gender_identity",
+      "label": "Sexual Orientation and Gender Identity (SOGIE)",
+      "subgroup": "LGBTIQ+ persons with disabilities; persons with disabilities who are gender non-conforming",
+      "exclusion_mechanisms": [
+        "Disability law assumes heteronormative family structures (opposite-sex caregiver spouse)",
+        "Community living support not designed for LGBTIQ+ household configurations",
+        "Mental health diagnosis as proxy for disability classification applied disproportionately to LGBTIQ+ persons",
+        "Forced psychiatric treatment historically used against LGBTIQ+ persons with psychosocial disabilities",
+        "No recognition of multiple discrimination at the intersection of disability and SOGIE"
+      ],
+      "applicable_articles": [5, 12, 14, 19],
+      "general_comments": ["GC_6"],
+      "diagnostic_question": "Does the domestic instrument address or remain blind to the specific situation of LGBTIQ+ persons with disabilities, including the historical pathologisation of non-normative gender identities?",
+      "weight": 1.0
+    },
+    {
+      "id": "deprivation_of_liberty",
+      "label": "Deprivation of Liberty",
+      "subgroup": "Persons with disabilities who are or have been incarcerated, institutionalised, or subject to involuntary psychiatric treatment",
+      "exclusion_mechanisms": [
+        "CRPD rights not applied within prisons, psychiatric institutions, or care facilities",
+        "Legal capacity automatically suspended on deprivation of liberty",
+        "Disability-based deprivation of liberty through civil commitment or involuntary psychiatric detention",
+        "Reasonable accommodation absent in detention settings",
+        "Re-entry support absent: persons with disabilities released from institutions without community support"
+      ],
+      "applicable_articles": [12, 13, 14, 15, 19],
+      "general_comments": [],
+      "diagnostic_question": "Does the domestic instrument ensure that persons with disabilities who are deprived of their liberty retain their rights under the CRPD, and that disability is never used as a basis for deprivation of liberty?",
+      "weight": 1.5
+    }
+  ]
+}
